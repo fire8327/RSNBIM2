@@ -10,11 +10,11 @@
                 </p>
             </div>
             <div class="flex max-sm:flex-col gap-2 sm:gap-6 xl:gap-[105px]">
-                <div class="grid grid-cols-2 sm:grid-cols-1 max-sm:gap-x-5 gap-y-4 text-[12px] sm:text-[15px] leading-[100%]">
-                    <a href="/">Как пользоваться</a>
-                    <a href="/">Тарифы</a>
-                    <a href="/">Помощь</a>
-                    <a href="/">Договор-оферта</a>
+                <div class="grid grid-cols-2 sm:grid-cols-1 w-fit max-sm:gap-x-5 gap-y-4 text-[12px] sm:text-[15px] leading-[100%]">
+                    <a href="/" class="min-w-[136px]">Как пользоваться</a>
+                    <a href="/" class="min-w-[136px]">Тарифы</a>
+                    <a href="/" class="min-w-[136px]">Помощь</a>
+                    <a href="/" class="min-w-[136px]">Договор-оферта</a>
                 </div>
                 <div class="flex sm:flex-col max-sm:items-center gap-9 sm:gap-4">
                     <button class="w-fit px-4 py-1.5 rounded-full border border-[#136BFB] text-[#136BFB] font-semibold text-[12px] sm:text-[16px] leading-[100%]">Попробовать</button>

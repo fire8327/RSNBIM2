@@ -1,5 +1,5 @@
 <template>
-    <header class="pt-4 pb-5 w-full grid-container">
+    <header class="pt-4 pb-5 w-full grid-container relative overflow-x-clip">
         <div class="flex items-center gap-2 justify-between">
             <a href="/">
                 <img src="/images/header/logo.png" alt="" class="w-[109px] sm:w-[158px]">
@@ -27,13 +27,13 @@
                     </a>
                 </div>
             </div>
-            <div class="flex items-center gap-2.5 !leading-[100%] font-semibold text-[13px] sm:text-[17px] xl:text-[15px] max-sm:hidden">
-                <a href="/" class="w-fit px-4 h-9 rounded-full flex items-center gap-2 border border-[#136BFB] text-[#136BFB]">
+            <div class="flex items-center gap-2.5 !leading-[100%] font-semibold text-[13px] sm:text-[17px] xl:text-[15px]">
+                <a href="/" class="w-fit px-4 h-9 rounded-full flex items-center gap-2 border border-[#136BFB] text-[#136BFB] max-sm:hidden">
                     <span>Войти</span>
                     <img src="/images/header/link-icon.svg" alt="">
                 </a>
-                <a href="/" class="w-fit px-4 h-9 rounded-full flex items-center bg-[#D8E4F9] text-[#136BFB]">Регистрация</a>
-                <button @click="isMenuShow = true" class="w-12 xl:hidden">
+                <a href="/" class="w-fit px-4 h-9 rounded-full flex items-center bg-[#D8E4F9] text-[#136BFB] max-sm:hidden">Регистрация</a>
+                <button @click="isMenuShow = true" class="w-8 md:w-12 xl:hidden">
                     <img src="/images/header/menu.svg" alt="">
                 </button>
             </div>
