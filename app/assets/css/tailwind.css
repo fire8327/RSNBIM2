@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {    
+    html { 
+        @apply [scrollbar-gutter:stable]
+    }
+
+    body{
+        @apply flex flex-col min-h-screen bg-[#F7F7F7] text-[#0F0F0F]
+    }
+        
+    :root{
+        /* максимальная ширина контента */
+        @apply [--widthContent:1250px]
+        /* Растояние от границы брузера по бокам */
+        [--widthContentMargin:20px] md:[--widthContentMargin:64px]
+    }     
+
+    /* Настройка кастомных контейнеров */
+    /* Применение системы гридов для расположения контента в ячейку main или full или в любую другую ячейку между именованными линиями grid*/
+
+    .grid-container{        
+        grid-template-columns: [full-start] minmax(var(--widthContentMargin), 1fr) [main-start] minmax(0, var(--widthContent)) [main-end] minmax(var(--widthContentMargin), 1fr) [full-end];
+        @apply grid
+    }
+
+    .grid-container>*{        
+        @apply col-[main]
+    }    
+
+    .wrapper{ 
+        @apply mr-auto max-w-[var(--widthContent)]
+    }
+
+    .container{        
+        @apply max-w-[var(--widthContent)]
+    } 
+}
+
+.order-input {
+    @apply cursor-pointer transition-all duration-500 bg-[#F7F7F7] [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:text-white border-[0.4px] border-[#ADADAD] [&:has(input:checked)]:border-[#136BFB]
+}
