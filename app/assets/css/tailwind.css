@@ -10,7 +10,7 @@
     }
 
     body{
-        @apply flex flex-col min-h-screen bg-white text-[#0F0F0F] font-montserrat
+        @apply flex flex-col min-h-screen bg-white text-[#0F0F0F] font-montserrat overflow-x-hidden
     }
         
     :root{
