@@ -1,6 +1,19 @@
 <template>
     <div>
         Главная страница
+    </div> 
+    <div class="col-span-full w-full grid-container rounded-[30px] md:rounded-[39px] bg-[#F7F7F7] py-9 xl:py-12">
+        <div class="flex items-center max-xl:flex-col gap-4">
+            <img src="/images/about/about.png" alt="" class="w-full xl:w-1/2 max-xl:order-last">
+            <div class="flex flex-col gap-1.5 md:flex-row xl:flex-col w-full xl:w-1/2">
+                <p class="text-[20px] md:text-[25px] leading-[144%] font-medium w-full md:w-[46%] xl:w-full">
+                    <span class="text-[#136BFB]">Revit Server</span> — это бесплатное программное обеспечение от Autodesk Revit для организации совместной работы над проектами
+                </p>
+                <p class="text-[12px] md:text-[15px] leading-[180%] w-full md:w-[54%] xl:w-full">
+                    Разворачиваем и администрируем Revit Server для архитектурных бюро и проектных организаций. Вам больше не нужно инвестировать в дорогостоящее оборудование, организовывать выделенный канал со статическим IP, настраивать сложную IT-инфраструктуру, VPN и межсетевые экраны. Мы быстро и безопасно развернём ваш собственный Revit Server в облаке — всего за несколько часов вы получите готовую среду для совместной работы, доступную из любой точки. 
+                </p>
+            </div> 
+        </div>         
     </div>
     <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 md:gap-y-4 md:gap-x-5">
         <div class="flex flex-col w-full h-[188px] md:h-[252px] gap-3 md:gap-1.5 px-4 md:px-7 pt-5 md:pt-8 rounded-[17px] md:rounded-[22px] relative bg-[#136BFB] text-white">
