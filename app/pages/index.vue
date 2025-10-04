@@ -47,6 +47,13 @@
             <img src="/images/about/support.svg" alt="" class="absolute max-sm:top-2 max-sm:right-3 bottom-5 right-6 w-[54px] md:w-[68px]">
         </div>
     </div>
+    <div class="col-span-full relative grid-container">
+        <img src="/images/how_works/bg.png" alt="" class="absolute top-1/2 -translate-y-1/2 max-md:-right-[207px] md:left-1/2 md:-translate-x-1/2 min-w-[1518px] md:min-w-[1648px] xl:min-w-[1455px]">
+        <div class="flex flex-col gap-1.5 md:gap-9 xl:gap-16 py-8 md:pt-5 md:pb-16 xl:pt-[72px] xl:pb-[108px] relative z-[1]">
+            <p class="text-[23px] md:text-[35px] leading-[100%] font-medium md:text-center text-white">Как работает и кому будет полезен</p>
+            <div class="grid grid-cols-1 lg:grid-cols-2"></div>
+        </div>
+    </div>
     <div class="flex flex-col gap-6 md:gap-10 xl:gap-12 col-span-full">
         <p class="text-[23px] md:text-[35px] leading-[100%] font-medium text-center">Схема работы</p>
         <div class="flex flex-col w-full">
