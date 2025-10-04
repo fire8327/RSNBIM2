@@ -139,7 +139,7 @@
             </label>
         </div> 
         <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-3 md:gap-5">
-            <label class="cursor-pointer group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-0.5 md:gap-6 main-input">
+            <label class="cursor-pointer group px-3.5 py-2.5 md:pt-2 mb:pb-5 md:px-7 rounded-[20px] flex flex-col gap-0.5 md:gap-6 main-input">
                 <input type="radio" name="rate" checked class="sr-only peer">
                 <div class="flex max-md:flex-col md:items-center gap-px justify-between">
                     <p class="text-xl md:text-[22px] font-semibold leading-[100%]">Start-2</p>
@@ -160,7 +160,7 @@
                     <button class="text-[10px] md:text-[13px] leading-[100%] font-semibold flex items-center justify-center w-[104px] h-[32px] md:w-[133px] md:h-[41px] rounded-full border transition-all duration-500 border-[#136BFB] text-[#136BFB] group-has-[:checked]:bg-white group-has-[:checked]:border-white">Заказать</button>
                 </div>
             </label>
-            <label class="cursor-pointer group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-0.5 md:gap-6 main-input">
+            <label class="cursor-pointer group px-3.5 py-2.5 md:pt-2 mb:pb-5 md:px-7 rounded-[20px] flex flex-col gap-0.5 md:gap-6 main-input">
                 <input type="radio" name="rate" class="sr-only peer">
                 <div class="flex max-md:flex-col md:items-center gap-px justify-between">
                     <p class="text-xl md:text-[22px] font-semibold leading-[100%]">Start-3</p>
@@ -181,7 +181,7 @@
                     <button class="text-[10px] md:text-[13px] leading-[100%] font-semibold flex items-center justify-center w-[104px] h-[32px] md:w-[133px] md:h-[41px] rounded-full border transition-all duration-500 border-[#136BFB] text-[#136BFB] group-has-[:checked]:bg-white group-has-[:checked]:border-white">Заказать</button>
                 </div>
             </label>
-            <label class="cursor-pointer group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-0.5 md:gap-6 main-input">
+            <label class="cursor-pointer group px-3.5 py-2.5 md:pt-2 mb:pb-5 md:px-7 rounded-[20px] flex flex-col gap-0.5 md:gap-6 main-input">
                 <input type="radio" name="rate" class="sr-only peer">
                 <div class="flex max-md:flex-col md:items-center gap-px justify-between">
                     <p class="text-xl md:text-[22px] font-semibold leading-[100%]">Standart-3</p>
@@ -202,7 +202,7 @@
                     <button class="text-[10px] md:text-[13px] leading-[100%] font-semibold flex items-center justify-center w-[104px] h-[32px] md:w-[133px] md:h-[41px] rounded-full border transition-all duration-500 border-[#136BFB] text-[#136BFB] group-has-[:checked]:bg-white group-has-[:checked]:border-white">Заказать</button>
                 </div>
             </label>
-            <label class="cursor-pointer group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-0.5 md:gap-6 main-input">
+            <label class="cursor-pointer group px-3.5 py-2.5 md:pt-2 mb:pb-5 md:px-7 rounded-[20px] flex flex-col gap-0.5 md:gap-6 main-input">
                 <input type="radio" name="rate" class="sr-only peer">
                 <div class="flex max-md:flex-col md:items-center gap-px justify-between">
                     <p class="text-xl md:text-[22px] font-semibold leading-[100%]">Pro-3</p>
@@ -223,7 +223,7 @@
                     <button class="text-[10px] md:text-[13px] leading-[100%] font-semibold flex items-center justify-center w-[104px] h-[32px] md:w-[133px] md:h-[41px] rounded-full border transition-all duration-500 border-[#136BFB] text-[#136BFB] group-has-[:checked]:bg-white group-has-[:checked]:border-white">Заказать</button>
                 </div>
             </label>
-            <label class="cursor-pointer group py-3 px-5 md:py-2 md:px-3 rounded-[20px] flex flex-col gap-0.5 md:gap-6 main-input">
+            <label class="cursor-pointer group px-3.5 py-2.5 md:pt-2 mb:pb-5 md:px-7 rounded-[20px] flex flex-col gap-0.5 md:gap-6 main-input">
                 <input type="radio" name="rate" class="sr-only peer">
                 <div class="flex max-md:flex-col md:items-center gap-px justify-between">
                     <p class="text-xl md:text-[22px] font-semibold leading-[100%]">Pro-4</p>
