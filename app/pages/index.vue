@@ -47,6 +47,27 @@
             <img src="/images/about/support.svg" alt="" class="absolute max-sm:top-2 max-sm:right-3 bottom-5 right-6 w-[54px] md:w-[68px]">
         </div>
     </div>
+    <div class="flex flex-col gap-6 md:gap-10 xl:gap-12 col-span-full">
+        <p class="text-[23px] md:text-[35px] leading-[100%] font-medium text-center">Схема работы</p>
+        <div class="flex flex-col w-full">
+            <div class="grid-container">
+                <div class="flex items-center gap-2.5 md:gap-11 max-md:jsutify-center text-[11px] md:text-[21px] leading-[100%] font-semibold">
+                    <button @click="scheme = 'Server'" class="flex items-center gap-1 md:gap-2.5 px-2.5 md:px-10 rounded-t-[12px] md:rounded-t-[21px]" :class="{'bg-[#F7F7F7]' : scheme === 'Server'}">
+                        <img src="/images/scheme/server.svg" alt="" class="w-[30px] md:w-[65px]">
+                        <span>Revit Server</span>
+                    </button>
+                    <button @click="scheme = 'Accelerator'" class="flex items-center gap-1 md:gap-2.5 px-2.5 md:px-10 rounded-t-[12px] md:rounded-t-[21px]" :class="{'bg-[#F7F7F7]' : scheme === 'Accelerator'}">
+                        <img src="/images/scheme/accelerator.svg" alt="" class="w-[30px] md:w-[65px]">
+                        <span>Revit Accelerator</span>
+                    </button>
+                </div>
+            </div>
+            <div class="w-full h-[194px] md:h-[490px] xl:h-[484px] relative bg-[#F7F7F7]">
+                <img src="/images/scheme/server-scheme.png" alt="" class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full max-w-[974px] transition-all duration-500" :class="scheme === 'Server' ? 'opacity-0' : 'opacity-100'">
+                <img src="/images/scheme/accelerator-scheme.png" alt="" class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full max-w-[1154px] transition-all duration-500" :class="scheme === 'Accelerator' ? 'opacity-0' : 'opacity-100'">
+            </div>
+        </div>
+    </div>
     <div class="flex flex-col gap-9 xl:gap-10">
         <p class="text-[23px] md:text-[35px] leading-[100%] font-medium text-center max-md:-mb-4">Тарифы</p>
         <div class="flex items-center gap-2.5 md:gap-5 flex-wrap text-[10px] md:text-[13px] leading-[100%] font-medium">
@@ -275,5 +296,6 @@
 </template>
 
 <script setup>
-
+/* схема работы*/
+const scheme = ref('Server')
 </script>
