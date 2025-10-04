@@ -41,6 +41,6 @@
     } 
 }
 
-.order-input {
+.main-input {
     @apply cursor-pointer transition-all duration-500 bg-[#F7F7F7] [&:has(input:checked)]:bg-[#136BFB] [&:has(input:checked)]:text-white border-[0.4px] border-[#ADADAD] [&:has(input:checked)]:border-[#136BFB]
 }

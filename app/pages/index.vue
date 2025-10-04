@@ -47,8 +47,79 @@
             <img src="/images/about/support.svg" alt="" class="absolute max-sm:top-2 max-sm:right-3 bottom-5 right-6 w-[54px] md:w-[68px]">
         </div>
     </div>
+    <div class="flex flex-col gap-9 xl:gap-10">
+        <p class="text-[23px] md:text-[35px] leading-[100%] font-medium text-center max-md:-mb-4">Тарифы</p>
+        <div class="flex items-center gap-2.5 md:gap-5 flex-wrap text-[10px] md:text-[13px] leading-[100%] font-medium">
+            <label class="flex items-center gap-1 md:gap-2.5 py-1 px-1.5 rounded-full main-input relative">
+                <input type="radio" name="city" class="sr-only">
+                <img src="/images/pricing/ru.svg" alt="" class="w-[18px] md:w-6">
+                <span>Москва</span>
+                <span class="absolute -top-2 -right-2 md:-right-3  flex items-center justify-center w-[13px] h-[13px] md:w-[22px] md:h-[22px] rounded-full bg-[#136BFB] text-white border border-white text-[8px] md:text-[14px]">3</span>
+            </label>
+            <label class="flex items-center gap-1 md:gap-2.5 py-1 px-1.5 rounded-full main-input relative">
+                <input type="radio" name="city" class="sr-only">
+                <img src="/images/pricing/ru.svg" alt="" class="w-[18px] md:w-6">
+                <span>Кемерево</span>
+                <span class="absolute -top-2 -right-2 md:-right-3  flex items-center justify-center w-[13px] h-[13px] md:w-[22px] md:h-[22px] rounded-full bg-[#136BFB] text-white border border-white text-[8px] md:text-[14px]">3</span>
+            </label>
+            <label class="flex items-center gap-1 md:gap-2.5 py-1 px-1.5 rounded-full main-input relative">
+                <input type="radio" name="city" class="sr-only">
+                <img src="/images/pricing/ru.svg" alt="" class="w-[18px] md:w-6">
+                <span>Саратов</span>
+                <span class="absolute -top-2 -right-2 md:-right-3  flex items-center justify-center w-[13px] h-[13px] md:w-[22px] md:h-[22px] rounded-full bg-[#136BFB] text-white border border-white text-[8px] md:text-[14px]">3</span>
+            </label>
+            <label class="flex items-center gap-1 md:gap-2.5 py-1 px-1.5 rounded-full main-input relative">
+                <input type="radio" name="city" class="sr-only">
+                <img src="/images/pricing/ru.svg" alt="" class="w-[18px] md:w-6">
+                <span>Владивосток</span>
+                <span class="absolute -top-2 -right-2 md:-right-3  flex items-center justify-center w-[13px] h-[13px] md:w-[22px] md:h-[22px] rounded-full bg-[#136BFB] text-white border border-white text-[8px] md:text-[14px]">3</span>
+            </label>
+            <label class="flex items-center gap-1 md:gap-2.5 py-1 px-1.5 rounded-full main-input relative">
+                <input type="radio" name="city" class="sr-only">
+                <img src="/images/pricing/ru.svg" alt="" class="w-[18px] md:w-6">
+                <span>Санкт-Петербург</span>
+                <span class="absolute -top-2 -right-2 md:-right-3  flex items-center justify-center w-[13px] h-[13px] md:w-[22px] md:h-[22px] rounded-full bg-[#136BFB] text-white border border-white text-[8px] md:text-[14px]">3</span>
+            </label>
+            <label class="flex items-center gap-1 md:gap-2.5 py-1 px-1.5 rounded-full main-input relative">
+                <input type="radio" name="city" class="sr-only">
+                <img src="/images/pricing/ru.svg" alt="" class="w-[18px] md:w-6">
+                <span>Казань</span>
+                <span class="absolute -top-2 -right-2 md:-right-3  flex items-center justify-center w-[13px] h-[13px] md:w-[22px] md:h-[22px] rounded-full bg-[#136BFB] text-white border border-white text-[8px] md:text-[14px]">3</span>
+            </label>
+            <label class="flex items-center gap-1 md:gap-2.5 py-1 px-1.5 rounded-full main-input relative">
+                <input type="radio" name="city" class="sr-only">
+                <img src="/images/pricing/uae.svg" alt="" class="w-[18px] md:w-6">
+                <span>ОАЭ</span>
+                <span class="absolute -top-2 -right-2 md:-right-3  flex items-center justify-center w-[13px] h-[13px] md:w-[22px] md:h-[22px] rounded-full bg-[#136BFB] text-white border border-white text-[8px] md:text-[14px]">3</span>
+            </label>
+            <label class="flex items-center gap-1 md:gap-2.5 py-1 px-1.5 rounded-full main-input relative">
+                <input type="radio" name="city" class="sr-only">
+                <img src="/images/pricing/pl.svg" alt="" class="w-[18px] md:w-6">
+                <span>Польша</span>
+                <span class="absolute -top-2 -right-2 md:-right-3  flex items-center justify-center w-[13px] h-[13px] md:w-[22px] md:h-[22px] rounded-full bg-[#136BFB] text-white border border-white text-[8px] md:text-[14px]">3</span>
+            </label>
+            <label class="flex items-center gap-1 md:gap-2.5 py-1 px-1.5 rounded-full main-input relative">
+                <input type="radio" name="city" class="sr-only">
+                <img src="/images/pricing/de.svg" alt="" class="w-[18px] md:w-6">
+                <span>Германия</span>
+                <span class="absolute -top-2 -right-2 md:-right-3  flex items-center justify-center w-[13px] h-[13px] md:w-[22px] md:h-[22px] rounded-full bg-[#136BFB] text-white border border-white text-[8px] md:text-[14px]">3</span>
+            </label>
+            <label class="flex items-center gap-1 md:gap-2.5 py-1 px-1.5 rounded-full main-input relative">
+                <input type="radio" name="city" class="sr-only">
+                <img src="/images/pricing/nl.svg" alt="" class="w-[18px] md:w-6">
+                <span>Амстердам</span>
+                <span class="absolute -top-2 -right-2 md:-right-3  flex items-center justify-center w-[13px] h-[13px] md:w-[22px] md:h-[22px] rounded-full bg-[#136BFB] text-white border border-white text-[8px] md:text-[14px]">3</span>
+            </label>
+            <label class="flex items-center gap-1 md:gap-2.5 py-1 px-1.5 rounded-full main-input relative">
+                <input type="radio" name="city" class="sr-only">
+                <img src="/images/pricing/lv.svg" alt="" class="w-[18px] md:w-6">
+                <span>Латвия</span>
+                <span class="absolute -top-2 -right-2 md:-right-3  flex items-center justify-center w-[13px] h-[13px] md:w-[22px] md:h-[22px] rounded-full bg-[#136BFB] text-white border border-white text-[8px] md:text-[14px]">3</span>
+            </label>
+        </div>
+    </div>
     <div class="flex flex-col gap-5 md:gap-gap-7 xl:gap-11">
-        <p class="text-[23px] md:text-[35px] leading-[100%] font-medium">Преимущества</p>
+        <p class="text-[23px] md:text-[35px] leading-[100%] font-medium text-center">Преимущества</p>
         <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2.5 md:gap-5">
             <div class="flex flex-col gap-3.5 xl:gap-2.5 px-6 overflow-hidden relative pt-[187px] sm:pt-[334px] pb-6 md:pb-8 border-[0.55px] md:border-[0.7px] border-[#ADADAD] rounded-[23px] md:rounded-[30px]">
                 <img src="/images/advantages/unification.png" alt="" class="absolute left-1/2 -translate-x-1/2 top-4 md:top-6 w-full">
