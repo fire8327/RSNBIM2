@@ -47,11 +47,35 @@
             <img src="/images/about/support.svg" alt="" class="absolute max-sm:top-2 max-sm:right-3 bottom-5 right-6 w-[54px] md:w-[68px]">
         </div>
     </div>
-    <div class="col-span-full relative grid-container">
-        <img src="/images/how_works/bg.png" alt="" class="absolute top-1/2 -translate-y-1/2 max-md:-right-[207px] md:left-1/2 md:-translate-x-1/2 min-w-[1518px] md:min-w-[1648px] xl:min-w-[1455px]">
+    <div class="col-span-full relative grid-container overflow-hidden">
+        <img src="/images/how_works/bg.png" alt="" class="absolute top-1/2 -translate-y-1/2 max-md:-right-[207px] md:left-1/2 md:-translate-x-1/2 min-w-[1518px] md:min-w-[1648px] xl:min-w-[100vw]">
         <div class="flex flex-col gap-1.5 md:gap-9 xl:gap-16 py-8 md:pt-5 md:pb-16 xl:pt-[72px] xl:pb-[108px] relative z-[1]">
             <p class="text-[23px] md:text-[35px] leading-[100%] font-medium md:text-center text-white">Как работает и кому будет полезен</p>
-            <div class="grid grid-cols-1 lg:grid-cols-2"></div>
+            <div class="grid grid-cols-1 xl:grid-cols-2 gap-4 md:gap-6 xl:gap-8">
+                <div class="flex md:items-center gap-3 md:gap-10 xl:gap-8 px-[18px] py-3.5 md:px-7 md:py-4 xl:py-9 bg-white rounded-[20px] md:rounded-[25px]">
+                    <img src="/images/how_works/1.svg" alt="" class="w-[62px] md:w-[191px]">
+                    <div class="flex flex-col gap-0.5 md:gap-1.5">
+                        <p class="text-[16px] md:text-[21px] leading-[100%] font-semibold">Как работает</p>
+                        <p class="text-[12px] leading-[20px] md:text-[15px] md:leading-[26px]">Используется, когда над одним и тем же проектом работают несколько человек в разных офисах или городах. Он помогает управлять доступом к общим проектам.</p>
+                    </div>
+                 </div>
+                <div class="flex md:items-center gap-3 md:gap-10 xl:gap-8 px-[18px] py-3.5 md:px-7 md:py-4 xl:py-9 bg-white rounded-[20px] md:rounded-[25px]">
+                    <img src="/images/how_works/2.svg" alt="" class="w-[62px] md:w-[191px]">
+                    <div class="flex flex-col gap-0.5 md:gap-1.5">
+                        <p class="text-[16px] md:text-[21px] leading-[100%] font-semibold">Кому это будет полезно?</p>
+                        <div class="text-[12px] leading-[20px] md:text-[15px] md:leading-[26px] flex flex-col gap-4">
+                            <div class="flex gap-2.5">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>Для проектных и архитектурных бюро</p>
+                            </div>
+                            <div class="flex gap-2.5">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>Если несколько офисов / отделов / специалистов разрабатывают проект</p>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
         </div>
     </div>
     <div class="flex flex-col gap-6 md:gap-10 xl:gap-12 col-span-full">
