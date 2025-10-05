@@ -51,9 +51,9 @@
                 <p class="text-[12px] md:text-[15px] leading-[20px] md:leading-[25px]">Показывает кто и когда редактировал элементы и статистику активности пользователей. Полезно для BIM- менеджеров и руководителей команд при контроле над качеством проектирования и соблюдением стандартов.</p>
                 <div class="flex items-center mt-auto justify-between">
                     <p class="text-[12px] md:text-[15px] leading-[20px] md:leading-[25px]">Версия: 1.1.1</p>
-                    <button class="flex items-center gap-2 md:gap-2.5 px-2.5 md:px-3.5 py-2 md:py-2.5 text-[13px] md:text-[15px] leading-[100%] font-semibold rounded-full text-white bg-[#136BFB]">
+                    <a href="/plugins/plugin-operation" class="flex items-center gap-2 md:gap-2.5 px-2.5 md:px-3.5 py-2 md:py-2.5 text-[13px] md:text-[15px] leading-[100%] font-semibold rounded-full text-white bg-[#136BFB]">
                         <span>Подробнее</span>
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
