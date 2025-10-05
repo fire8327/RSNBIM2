@@ -17,7 +17,7 @@
                     <div class="flex flex-col gap-3 md:gap-3.5 xl:gap-7">
                         <p class="text-[23px] md:text-[25px] leading-[100%] font-medium xl:font-semibold">Отправить заявку</p>
                         <form class="flex max-sm:flex-col gap-1.5 md:gap-3 w-full">
-                            <input type="text" placeholder="Ваш e-mail" class="rounded-full grow flex items-center h-10 px-[18px] md:px-7 xl:px-8 bg-white/40 text-white placeholder:text-white font-medium text-[12px] md:text-[15px] leading-[100%]">
+                            <input type="text" placeholder="Ваш e-mail" class="focus:outline-none rounded-full grow flex items-center h-10 px-[18px] md:px-7 xl:px-8 bg-white/40 text-white placeholder:text-white font-medium text-[12px] md:text-[15px] leading-[100%]">
                             <button class="rounded-full flex items-center h-10 justify-center bg-white text-[#136BFB] font-semibold text-[13px] md:text-[16px] leading-[100%] w-full sm:w-[170px]">Отправить</button>
                         </form>
                     </div>

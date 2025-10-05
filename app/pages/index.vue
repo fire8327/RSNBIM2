@@ -1,6 +1,26 @@
 <template>
-    <div>
-        Главная страница
+    <div class="flex flex-col gap-3.5 md:gap-4 xl:gap-[18px]">
+        <div class="flex flex-col gap-1 xl:gap-2.5 w-full md:max-w-[476px] xl:max-w-[576px]">
+            <p class="text-[12px] md:text-[17px] leading-[100%] font-medium text-[#136BFB]">Аренда Revit Server & Accelerator</p>
+            <p class="text-[25px] md:text-[38px] xl:text-[40px] leading-[130%] font-medium">
+                Совместная работа вашей команды над проектами <br>
+                <span class="inline-flex items-center gap-2.5 xl:gap-4 whitespace-nowrap">в Autodesk Revit <img src="/images/hero/logo.svg" alt=""></span>
+            </p>
+        </div>
+        <p class="text-[12px] md:text-[15px] leading-[160%] w-full md:max-w-[324px] xl:max-w-[416px]">
+            Аренда облачных серверов Revit Server и Accelerator  для управления проектами по проектированию
+        </p> 
+        <div class="flex max-md:flex-col items-center gap-3 md:gap-3.5 mt-1 md:mt-[52px] xl:mt-8">
+            <button class="w-full md:w-[242px] h-9 md:h-11 flex items-center justify-center rounded-full bg-[#136BFB] text-white text-[12px] md:text-[15px] leading-[100%] font-semibold">
+                7 дней бесплатно
+            </button>
+            <div class="max-md:w-full relative">
+                <input type="text" placeholder="Ваш e-mail" class="focus:outline-none w-[calc(100%-90px)] md:w-[242px] pl-5 md:pl-6 pr-12 h-9 md:h-11 flex items-center justify-center rounded-full bg-[#F7F7F7] placeholder:text-[#ADADAD] ext-[12px] md:text-[15px] leading-[100%] font-medium">    
+                <button class="absolute z-[1] top-1/2 -translate-y-1/2 right-0 md:-right-[114px] w-[129px] md:w-[155px] h-9 md:h-11 flex items-center justify-center rounded-full bg-[#136BFB] text-white text-[12px] md:text-[15px] leading-[100%] font-semibold">
+                    Начать работу
+                </button>
+            </div>
+        </div>
     </div> 
     <div class="col-span-full w-full grid-container rounded-[30px] md:rounded-[39px] bg-[#F7F7F7] py-9 xl:py-12">
         <div class="flex items-center max-xl:flex-col gap-4">
