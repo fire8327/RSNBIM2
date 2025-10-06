@@ -305,43 +305,43 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-2.5 md:gap-5">
             <div class="flex flex-col gap-3.5 xl:gap-2.5 px-6 overflow-hidden relative pt-[187px] sm:pt-[334px] pb-6 md:pb-8 border-[0.55px] md:border-[0.7px] border-[#ADADAD] rounded-[23px] md:rounded-[30px]">
                 <img src="/images/advantages/unification.png" alt="" class="absolute left-1/2 -translate-x-1/2 top-4 md:top-6 w-full">
-                <p class="text-[16px] leading-[22px] md:text-[21px] md:leading-[100%] font-semibold">Централизованное управление проектами</p>
-                <p class="text-[12px] leading-[20px] md:text-[15px] md:leading-[26px]">
+                <p class="text-[16px] leading-[22px] md:text-[21px] md:leading-[100%] font-semibold relative z-[1]">Централизованное управление проектами</p>
+                <p class="text-[12px] leading-[20px] md:text-[15px] md:leading-[26px] relative z-[1]">
                     Revit Server обеспечивает единое централизованное хранилище данных проекта, что делает совместную работу команды более организованной и эффективной.
                 </p>
             </div>
             <div class="flex flex-col gap-3.5 xl:gap-2.5 px-6 overflow-hidden relative pt-[187px] sm:pt-[334px] pb-6 md:pb-8 border-[0.55px] md:border-[0.7px] border-[#ADADAD] rounded-[23px] md:rounded-[30px]">
                 <img src="/images/advantages/map.png" alt="" class="absolute left-1/2 -translate-x-1/2 top-0 w-full">
-                <p class="text-[16px] leading-[22px] md:text-[21px] md:leading-[100%] font-semibold">Географически распределенные команды</p>
-                <p class="text-[12px] leading-[20px] md:text-[15px] md:leading-[26px]">
+                <p class="text-[16px] leading-[22px] md:text-[21px] md:leading-[100%] font-semibold relative z-[1]">Географически распределенные команды</p>
+                <p class="text-[12px] leading-[20px] md:text-[15px] md:leading-[26px] relative z-[1]">
                     Revit Server позволяет командам, находящимся в разных географических местоположениях, работать над одним проектом, обеспечивая высокую скорость доступа к данным.
                 </p>
             </div>
             <div class="flex flex-col gap-3.5 xl:gap-2.5 px-6 overflow-hidden relative pt-[187px] sm:pt-[334px] pb-6 md:pb-8 border-[0.55px] md:border-[0.7px] border-[#ADADAD] rounded-[23px] md:rounded-[30px]">
                 <img src="/images/advantages/logo.png" alt="" class="absolute left-1/2 -translate-x-1/2 top-2.5 md:top-3.5 w-full">
-                <p class="text-[16px] leading-[22px] md:text-[21px] md:leading-[100%] font-semibold">Интеграция с другими BIM-технологиями</p>
-                <p class="text-[12px] leading-[20px] md:text-[15px] md:leading-[26px]">
+                <p class="text-[16px] leading-[22px] md:text-[21px] md:leading-[100%] font-semibold relative z-[1]">Интеграция с другими BIM-технологиями</p>
+                <p class="text-[12px] leading-[20px] md:text-[15px] md:leading-[26px] relative z-[1]">
                     Revit Server легко интегрируется с другими программами и приложениями BIM, что облегчает процесс совместной работы и обмена данными между различными инструментами.
                 </p>
             </div>
             <div class="flex flex-col gap-3.5 xl:gap-2.5 px-6 overflow-hidden relative pt-[187px] sm:pt-[334px] pb-6 md:pb-8 border-[0.55px] md:border-[0.7px] border-[#ADADAD] rounded-[23px] md:rounded-[30px]">
                 <img src="/images/advantages/protection.png" alt="" class="absolute left-1/2 -translate-x-1/2 top-1.5 md:top-7 w-full">
-                <p class="text-[16px] leading-[22px] md:text-[21px] md:leading-[100%] font-semibold">Улучшенная безопасность данных</p>
-                <p class="text-[12px] leading-[20px] md:text-[15px] md:leading-[26px]">
+                <p class="text-[16px] leading-[22px] md:text-[21px] md:leading-[100%] font-semibold relative z-[1]">Улучшенная безопасность данных</p>
+                <p class="text-[12px] leading-[20px] md:text-[15px] md:leading-[26px] relative z-[1]">
                     Revit Server обеспечивает надежную защиту данных проекта, предотвращая утерю информации и обеспечивая резервное копирование.
                 </p>
             </div>
             <div class="flex flex-col gap-3.5 xl:gap-2.5 px-6 overflow-hidden relative pt-[187px] sm:pt-[334px] pb-6 md:pb-8 border-[0.55px] md:border-[0.7px] border-[#ADADAD] rounded-[23px] md:rounded-[30px]">
                 <img src="/images/advantages/scheme.png" alt="" class="absolute left-1/2 -translate-x-1/2 top-0 md:top-12 w-full px-5 md:px-7">
-                <p class="text-[16px] leading-[22px] md:text-[21px] md:leading-[100%] font-semibold">Многопользовательский доступ</p>
-                <p class="text-[12px] leading-[20px] md:text-[15px] md:leading-[26px]">
+                <p class="text-[16px] leading-[22px] md:text-[21px] md:leading-[100%] font-semibold relative z-[1]">Многопользовательский доступ</p>
+                <p class="text-[12px] leading-[20px] md:text-[15px] md:leading-[26px] relative z-[1]">
                     Позволяет множеству участников команды одновременно работать над проектом в реальном времени, что увеличивает производительность и устраняет конфликты при одновременном редактировании данных.
                 </p>
             </div>
             <div class="flex flex-col gap-3.5 xl:gap-2.5 px-6 overflow-hidden relative pt-[187px] sm:pt-[334px] pb-6 md:pb-8 border-[0.55px] md:border-[0.7px] border-[#ADADAD] rounded-[23px] md:rounded-[30px]">
                 <img src="/images/advantages/load.png" alt="" class="absolute left-1/2 -translate-x-1/2 -top-2.5 md:top-3.5 w-full px-9">
-                <p class="text-[16px] leading-[22px] md:text-[21px] md:leading-[100%] font-semibold">Уменьшение нагрузки на локальные серверы</p>
-                <p class="text-[12px] leading-[20px] md:text-[15px] md:leading-[26px]">
+                <p class="text-[16px] leading-[22px] md:text-[21px] md:leading-[100%] font-semibold relative z-[1]">Уменьшение нагрузки на локальные серверы</p>
+                <p class="text-[12px] leading-[20px] md:text-[15px] md:leading-[26px] relative z-[1]">
                     Эффективное управление данными проекта на сервере позволяет снизить нагрузку на локальные компьютеры и серверы команды.
                 </p>
             </div>
