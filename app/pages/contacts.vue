@@ -1,7 +1,7 @@
 <template>
     <div class="w-full col-span-full grid-container bg-gradient-to-b from-[#136BFB] to-[#6E99E1] py-9 md:py-14 xl:py-[60px]">
         <div class="flex flex-col gap-10 xl:gap-11">
-            <div class="flex flex-col gap-[60px] xl:gap-3.5 max-md:hidden w-full text-white">
+            <div class="flex flex-col gap-[60px] xl:gap-3.5 w-full text-white">
                 <div class="flex max-md:flex-col gap-8 md:justify-between">
                     <div class="flex flex-col gap-1.5 md:gap-3">
                         <p class="text-[25px] md:text-[35px] xl:text-[40px] font-medium leading-[130%]">Наши контакты</p>
@@ -9,16 +9,41 @@
                             Оставьте заявку или свяжитесь с нами удобным способом
                         </p>
                     </div>
+                    <div class="flex flex-col gap-10 md:hidden">
+                        <div class="flex gap-7 items-start">
+                            <img src="/images/contacts/tg.svg" alt="" class="mt-0.5">
+                            <a href="https://t.me/rsnbim_support" target="_blank" class="text-[19px] leading-[100%] font-medium">@rsnbim_support</a>
+                        </div>
+                        <div class="flex gap-7 items-start">
+                            <img src="/images/contacts/mail2.svg" alt="" class="mt-0.5">
+                            <div class="flex flex-col gap-5">
+                                <a href="mailto:info@rsnbim.ru" target="_blank" class="text-[19px] leading-[100%] font-medium">info@rsnbim.ru</a>
+                                <div>
+                                    <p class="text-[12px] leading-[100%] font-medium">Тех. поддержка</p>
+                                    <a href="mailto:support@rsnbim.ru" target="_blank" class="text-[19px] leading-[100%] font-medium">support@rsnbim.ru</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex gap-7 items-start">
+                            <img src="/images/contacts/phone2.svg" alt="" class="mt-0">
+                            <a href="tel:+74957418963" target="_blank" class="text-[19px] leading-[100%] font-medium">+7 (495) 741-89-63</a>
+                        </div>
+                        <div class="flex gap-7 items-start">
+                            <img src="/images/contacts/calendar2.svg" alt="" class="mt-0">
+                            <p class="text-[19px] leading-[100%] font-medium mt-0.5">Пн-Пт с 09:00 до 17:00</p>
+                        </div>
+                    </div>
+                    <img src="/images/footer/forms.png" alt="" class="w-full max-w-[70%] mx-auto md:hidden">
                     <div class="flex flex-col gap-6 md:gap-3.5 xl:gap-7 md:mt-6 xl:mt-3.5">
                         <p class="text-[21px] md:text-[23px] xl:text-[25px] leading-[100%] font-semibold">Отправить заявку</p>
-                        <div class="flex max-xl:flex-col gap-1.5 md:gap-3.5">
-                            <input type="text" placeholder="Ваш e-mail" class="focus:outline-none rounded-full w-full max-w-[337px] md:w-[337px] flex items-center h-10 px-[18px] md:px-7 xl:px-8 bg-white/40 text-white placeholder:text-white font-medium text-[12px] md:text-[15px] leading-[100%]">
-                            <button class="w-full max-w-[337px] md:w-[337px] xl:w-[171px] rounded-full flex items-center h-10 justify-center bg-white text-[#136BFB] font-semibold text-[13px] md:text-[16px] leading-[100%]">Отправить</button>
+                        <div class="flex flex-col sm:flex-row max-xl:flex-col gap-1.5 md:gap-3.5">
+                            <input type="text" placeholder="Ваш e-mail" class="focus:outline-none rounded-full w-full sm:w-1/2 md:w-[337px] flex items-center h-10 px-[18px] md:px-7 xl:px-8 bg-white/40 text-white placeholder:text-white font-medium text-[12px] md:text-[15px] leading-[100%]">
+                            <button class="w-full sm:w-1/2 md:w-[337px] xl:w-[171px] rounded-full flex items-center h-10 justify-center bg-white text-[#136BFB] font-semibold text-[13px] md:text-[16px] leading-[100%]">Отправить</button>
                         </div>
                     </div>
                 </div>
-                <div class="flex items-center justify-between gap-8">
-                    <img src="/images/footer/forms.png" alt="" class="w-full max-w-[263px] xl:max-w-[506px] max-md:hidden">
+                <div class="flex items-center justify-between gap-8 max-md:hidden">
+                    <img src="/images/footer/forms.png" alt="" class="w-full max-w-[263px] xl:max-w-[506px]">
                     <div class="flex items-center gap-5 xl:gap-6 xl:min-w-[520px]">
                         <a href="https://t.me/rsnbim_support" target="_blank" class="flex items-center gap-3 md:gap-5 xl:gap-4">
                             <img src="/images/footer/tg2.svg" alt="" class="w-10">
