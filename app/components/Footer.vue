@@ -24,11 +24,11 @@
                     <div class="flex max-sm:flex-col gap-6 justify-between">
                         <div class="flex max-md:flex-col gap-4 md:justify-between">
                             <a href="https://t.me/rsnbim_support" target="_blank" class="flex items-center gap-3 md:gap-5 xl:gap-4">
-                                <img src="/images/footer/tg2.svg" alt="">
+                                <img src="/images/footer/tg2.svg" alt="" class="w-8 md:w-12 xl:w-10">
                                 <span>@rsnbim_support</span>
                             </a>
                             <a href="mailto:info@rsnbim.ru" target="_blank" class="flex items-center gap-3 md:gap-5 xl:gap-4">
-                                <img src="/images/footer/mail.svg" alt="">
+                                <img src="/images/footer/mail.svg" alt="" class="w-8 md:w-12 xl:w-10">
                                 <span>info@rsnbim.ru</span>
                             </a>
                         </div>
