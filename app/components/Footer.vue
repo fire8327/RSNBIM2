@@ -1,7 +1,7 @@
 <template>
     <footer class="w-full grid-container pb-10 lg:pb-20 mt-auto">
         <div class="w-full flex flex-col gap-10 md:gap-20 lg:gap-9">
-            <div class="w-full text-white flex max-lg:flex-col gap-6 md:gap-0 lg:gap-6 xl:gap-20 py-8 md:pt-10 md:pb-[30px] lg:py-12 px-5 md:px-14 lg:px-4 xl:px-[65px] rounded-[37px] md:rounded-[50px] bg-gradient-to-b from-[#136BFB] to-[#6E99E1]">
+            <div v-if="!hideContactBlock" class="w-full text-white flex max-lg:flex-col gap-6 md:gap-0 lg:gap-6 xl:gap-20 py-8 md:pt-10 md:pb-[30px] lg:py-12 px-5 md:px-14 lg:px-4 xl:px-[65px] rounded-[37px] md:rounded-[50px] bg-gradient-to-b from-[#136BFB] to-[#6E99E1]">
                 <div class="flex lg:flex-col md:gap-[90px] lg:gap-8 w-full lg:w-1/2">
                     <div class="flex flex-col gap-2 md:gap-1.5 lg:gap-3">
                         <p class="text-[23px] md:text-[35px] font-medium leading-[100%]">Свяжитесь с нами</p>
@@ -73,5 +73,11 @@
 </template>
 
 <script setup>
-
+// Определяем пропс для скрытия блока в подвале
+defineProps({
+    hideContactBlock: {
+        type: Boolean,
+        default: false
+    }
+})
 </script>

@@ -17,7 +17,7 @@
                     <a href="/" class="w-fit px-4 py-1.5 rounded-full bg-[#F7F7F7] text-[#ADADAD] font-medium main-link">Как пользоваться</a>
                     <a href="/" class="w-fit px-4 py-1.5 rounded-full bg-[#F7F7F7] text-[#ADADAD] font-medium main-link">Тарифы</a>
                     <a href="/" class="w-fit px-4 py-1.5 rounded-full bg-[#F7F7F7] text-[#ADADAD] font-medium main-link">Помощь</a>
-                    <a href="/" class="w-fit px-4 py-1.5 rounded-full bg-[#F7F7F7] text-[#ADADAD] font-medium main-link">Контакты</a>
+                    <a href="/contacts" class="w-fit px-4 py-1.5 rounded-full bg-[#F7F7F7] text-[#ADADAD] font-medium main-link">Контакты</a>
                 </div>
                 <div class="flex flex-col gap-3 sm:gap-4 !leading-[100%] font-semibold text-[13px] sm:text-[17px] xl:text-[15px] mt-[60px] sm:pt-[54px] xl:hidden">
                     <a href="/" class="w-fit px-4 h-9 rounded-full flex items-center bg-[#D8E4F9] text-[#136BFB]">Регистрация</a>
