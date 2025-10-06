@@ -4,7 +4,7 @@
             <div class="flex flex-col gap-1 xl:gap-2.5 w-full md:max-w-[476px] xl:max-w-[576px]">
                 <p class="text-[12px] md:text-[17px] leading-[100%] font-medium text-[#136BFB]">Аренда Revit Server & Accelerator</p>
                 <p class="text-[25px] md:text-[38px] xl:text-[40px] leading-[130%] font-medium">
-                    Совместная работа вашей команды над проектами <br>
+                    Совместная работа вашей команды над проектами
                     <span class="inline-flex items-center gap-2.5 xl:gap-4 whitespace-nowrap">в Autodesk Revit <img src="/images/hero/logo.svg" alt=""></span>
                 </p>
             </div>
@@ -117,8 +117,8 @@
                 </div>
             </div>
             <div class="w-full h-[194px] md:h-[490px] xl:h-[484px] relative bg-[#F7F7F7]">
-                <img src="/images/scheme/server-scheme.png" alt="" class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full max-w-[974px] transition-all duration-500" :class="scheme === 'Server' ? 'opacity-0' : 'opacity-100'">
-                <img src="/images/scheme/accelerator-scheme.png" alt="" class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full max-w-[1154px] transition-all duration-500" :class="scheme === 'Accelerator' ? 'opacity-0' : 'opacity-100'">
+                <img src="/images/scheme/server-scheme.png" alt="" class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full max-w-[974px] transition-all duration-500" :class="scheme === 'Server' ? 'opacity-100' : 'opacity-0'">
+                <img src="/images/scheme/accelerator-scheme.png" alt="" class="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-full max-w-[1154px] transition-all duration-500" :class="scheme === 'Accelerator' ? 'opacity-100' : 'opacity-0'">
             </div>
         </div>
     </div>

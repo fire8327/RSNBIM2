@@ -1,7 +1,7 @@
 <template>
     <div class="flex max-md:flex-col items-center gap-8 md:gap-10 justify-between">
         <div class="flex flex-col gap-4 max-md:w-full grow">
-            <p class="text-[25px] md:text-[38px] xl:text-[40px] leading-[130%] font-medium">Плагины и утилиты <br> для Autodesk Revit <br> 2019-2026</p>
+            <p class="text-[25px] md:text-[38px] xl:text-[40px] leading-[130%] font-medium">Плагины и утилиты для Autodesk Revit 2019-2026</p>
             <div class="flex items-center gap-2.5">
                 <p class="text-[12px] md:text-[15px] leading-[100%] text-[#ADADAD]">Для операционной системы</p>
                 <img src="/images/plugins/windows.svg" alt="" class="text-[88px] md:text-[91px]">
