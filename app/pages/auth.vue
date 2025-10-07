@@ -34,8 +34,8 @@
             <div class="flex flex-col gap-2 md:gap-4 items-center mx-auto">
                 <button class="w-full sm:w-[168px] text-white h-8 md:h-11 flex items-center justify-center rounded-full bg-[#136BFB] text-[13px] md:text-[15px] leading-[100%] font-semibold">Войти</button>
                 <div class="flex items-center gap-2.5 md:gap-7 max-sm:flex-col">
-                    <a href="/reg" class="text-[12px] md:text-[15px] leading-[100%] underline text-[#ADADAD]">Забыли пароль?</a>
-                    <button class="text-[12px] md:text-[15px] leading-[100%] underline text-[#ADADAD]">Регистрация</button>
+                    <button class="text-[12px] md:text-[15px] leading-[100%] underline text-[#ADADAD]">Забыли пароль?</button>
+                    <a href="/reg" class="text-[12px] md:text-[15px] leading-[100%] underline text-[#ADADAD]">Регистрация</a>
                 </div>
             </div>
         </div>
