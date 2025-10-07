@@ -66,17 +66,17 @@
                     <input placeholder="Введите пароль" type="text" class="flex items-center px-4 xl:px-5 w-full h-8 md:h-10 rounded-[10px] md:rounded-[13px] border-[0.55px] border-[#ADADAD] placeholder:text-[#ADADAD]">
                 </div>  
             </div>
-            <div class="flex flex-col gap-1.5 md:gap-2.5 mt-3.5 md:-mt-1 text-[10px] md:text-[13px] leading-[100%] text-[#ADADAD]">
+            <div class="flex flex-col gap-1.5 md:gap-2.5 mt-3.5 md:-mt-1 text-[10px] md:text-[13px] leading-[120%] text-[#ADADAD]">
                 <label class="group cursor-pointer flex items-start gap-2 md:gap-2.5 xl:gap-4">
                     <input type="checkbox" class="sr-only">
-                    <div class="transition-all duration-500 flex items-center justify-center w-4 h-4 rounded-[4px] border-[0.8px] border-[#D0D0D0] bg-[#E3E3E3] opacity-40 [.group:has(input:checked)_&]:opacity-100 [.group:has(input:checked)_&]:bg-[#136BFA] [.group:has(input:checked)_&]:border-[#136BFA]">
+                    <div class="transition-all duration-500 flex items-center justify-center w-4 h-4 shrink-0 rounded-[4px] border-[0.8px] border-[#D0D0D0] bg-[#E3E3E3] opacity-40 [.group:has(input:checked)_&]:opacity-100 [.group:has(input:checked)_&]:bg-[#136BFA] [.group:has(input:checked)_&]:border-[#136BFA]">
                         <img src="/images/reg/check.svg" alt="" class="transition-all duration-500 opacity-0 [.group:has(input:checked)_&]:opacity-100">
                     </div>
                     <p>Согласен с <a href="" target="_blank" class="underline">пользовательским соглашением</a> и <a href="" target="_blank" class="underline">договором оферты</a> и <a href="" target="_blank" class="underline">правилами пользования услугами</a></p>
                 </label>
                 <label class="group cursor-pointer flex items-start gap-2 md:gap-2.5 xl:gap-4">
                     <input type="checkbox" class="sr-only">
-                    <div class="transition-all duration-500 flex items-center justify-center w-4 h-4 rounded-[4px] border-[0.8px] border-[#D0D0D0] bg-[#E3E3E3] opacity-40 [.group:has(input:checked)_&]:opacity-100 [.group:has(input:checked)_&]:bg-[#136BFA] [.group:has(input:checked)_&]:border-[#136BFA]">
+                    <div class="transition-all duration-500 flex items-center justify-center w-4 h-4 shrink-0 rounded-[4px] border-[0.8px] border-[#D0D0D0] bg-[#E3E3E3] opacity-40 [.group:has(input:checked)_&]:opacity-100 [.group:has(input:checked)_&]:bg-[#136BFA] [.group:has(input:checked)_&]:border-[#136BFA]">
                         <img src="/images/reg/check.svg" alt="" class="transition-all duration-500 opacity-0 [.group:has(input:checked)_&]:opacity-100">
                     </div>
                     <p>Согласен на <a href="" target="_blank" class="underline">обработку персональных данных</a></p>
