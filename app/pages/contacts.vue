@@ -96,7 +96,7 @@
 </template>
 
 <script setup>
-/* скрытие блок в подвале */
+/* скрытие блока в подвале */
 definePageMeta({
   hideFooterContact: true
 })
