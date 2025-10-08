@@ -53,7 +53,7 @@
                         <a href="/" class="min-w-[136px]">Договор-оферта</a>
                     </div>
                     <div class="flex sm:flex-col max-sm:items-center gap-9 sm:gap-4">
-                        <button class="w-fit px-4 py-1.5 rounded-full border border-[#136BFB] text-[#136BFB] font-semibold text-[12px] sm:text-[16px] leading-[100%]">Попробовать</button>
+                        <a href="/trial" class="w-fit px-4 py-1.5 rounded-full border border-[#136BFB] text-[#136BFB] font-semibold text-[12px] sm:text-[16px] leading-[100%]">Попробовать</a>
                         <div class="flex items-center gap-2">
                             <a href="/">
                                 <img src="/images/footer/vk.svg" alt="" class="w-7 sm:w-9">

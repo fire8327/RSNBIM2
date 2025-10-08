@@ -11,7 +11,7 @@
                         <img src="/images/header/close.svg" alt="">
                     </button>
                 </div>
-                <button class="w-fit px-4 py-1.5 rounded-full bg-[#136BFB] text-white font-semibold mt-[52px] sm:mt-[90px] xl:mt-0">Попробовать</button>
+                <a href="/trial" class="w-fit px-4 py-1.5 rounded-full bg-[#136BFB] text-white font-semibold mt-[52px] sm:mt-[90px] xl:mt-0">Попробовать</a>
                 <div class="flex max-xl:flex-col xl:items-center w-fit gap-4 sm:gap-5 xl:gap-2 mt-7 sm:mt-10 xl:mt-0">
                     <a href="/plugins" class="w-fit px-4 py-1.5 rounded-full bg-[#F7F7F7] text-[#ADADAD] font-medium main-link">Плагины</a>
                     <a href="/" class="w-fit px-4 py-1.5 rounded-full bg-[#F7F7F7] text-[#ADADAD] font-medium main-link">Как пользоваться</a>

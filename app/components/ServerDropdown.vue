@@ -26,7 +26,7 @@
                         <p class="text-[12px] md:text-[15px] leading-[100%]">Пропишите эту ссылку:</p>
                         <div class="flex items-center gap-2 md:gap-3 h-5 md:h-7 px-1.5 md:px-5 bg-[#F7F7F7] rounded-[5px] md:rounded-[7px] w-fit">
                             <p class="text-[12px] md:text-[15px] leading-[100%]">{{ serverData?.connectionLink }}</p>
-                            <button>
+                            <button @click.stop="copyToClipboard(serverData?.connectionLink)">
                                 <img src="/images/trial/copy.svg" alt="" class="w-3 md:w-4">
                             </button>
                         </div>
@@ -36,7 +36,7 @@
                     <p class="text-[12px] md:text-[15px] leading-[100%]">в файле RSN.ini. Он расположен:</p>
                     <div class="inline-flex items-center gap-2 md:gap-3 h-5 md:h-7 px-1.5 md:px-5 bg-[#F7F7F7] rounded-[5px] md:rounded-[7px] w-fit">
                         <p class="text-[12px] md:text-[15px] leading-[100%]">{{ serverData?.fileLocation }}</p>
-                        <button>
+                        <button @click.stop="copyToClipboard(serverData?.fileLocation)">
                             <img src="/images/trial/copy.svg" alt="" class="w-3 md:w-4">
                         </button>
                     </div>
@@ -66,4 +66,24 @@ const props = defineProps({
 
 /* показ */
 const isDropdownShow = ref(false)
+
+/* копирование текста в буфер обмена с универсальным фолбэком */
+async function copyToClipboard(text) {
+  if (!text) return;
+  
+  try {
+    // пробуем современный API
+    await navigator.clipboard.writeText(text);
+  } catch {
+    // fallback для старых браузеров
+    const textarea = document.createElement('textarea');
+    textarea.value = text;
+    textarea.style.position = 'fixed';
+    textarea.style.opacity = '0';
+    document.body.appendChild(textarea);
+    textarea.select();
+    document.execCommand('copy');
+    document.body.removeChild(textarea);
+  }
+}
 </script>
