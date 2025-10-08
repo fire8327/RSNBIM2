@@ -21,14 +21,14 @@
                 </div>
                 <div class="flex flex-col gap-3 sm:gap-4 !leading-[100%] font-semibold text-[13px] sm:text-[17px] xl:text-[15px] mt-[60px] sm:pt-[54px] xl:hidden">
                     <a href="/reg" class="w-fit px-4 h-9 rounded-full flex items-center bg-[#D8E4F9] text-[#136BFB]">Регистрация</a>
-                    <a href="/" class="w-fit px-4 h-9 rounded-full flex items-center gap-2 border border-[#136BFB] text-[#136BFB]">
+                    <a href="/auth" class="w-fit px-4 h-9 rounded-full flex items-center gap-2 border border-[#136BFB] text-[#136BFB]">
                         <span>Войти</span>
                         <img src="/images/header/link-icon.svg" alt="">
                     </a>
                 </div>
             </div>
             <div class="flex items-center gap-2.5 !leading-[100%] font-semibold text-[13px] sm:text-[17px] xl:text-[15px]">
-                <a href="/" class="w-fit px-4 h-9 rounded-full flex items-center gap-2 border border-[#136BFB] text-[#136BFB] max-sm:hidden">
+                <a href="/auth" class="w-fit px-4 h-9 rounded-full flex items-center gap-2 border border-[#136BFB] text-[#136BFB] max-sm:hidden">
                     <span>Войти</span>
                     <img src="/images/header/link-icon.svg" alt="">
                 </a>

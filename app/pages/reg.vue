@@ -24,7 +24,7 @@
             <div class="flex flex-col gap-7">
                 <div class="flex flex-col gap-1.5 md:gap-2">
                     <p class="text-[13px] md:text-[17px] leading-[100%] font-semibold">ФИО или название организации</p>
-                    <input value="Иван Иванов" placeholder="Иван Иванов" type="text" class="flex items-center px-4 xl:px-5 w-full h-8 md:h-10 rounded-[10px] md:rounded-[13px] border-[0.55px] border-[#ADADAD] placeholder:text-[#ADADAD]">
+                    <input placeholder="Иван Иванов" type="text" class="flex items-center px-4 xl:px-5 w-full h-8 md:h-10 rounded-[10px] md:rounded-[13px] border-[0.55px] border-[#ADADAD] placeholder:text-[#ADADAD]">
                 </div>
                 <div class="flex items-center flex-wrap max-sm:flex-col gap-1.5 md:gap-2.5 text-[12px] md:text-[15px]">
                     <label class="group cursor-pointer flex items-center w-full sm:w-fit px-1.5 md:px-2.5 xl:px-3 h-9 md:h-11 gap-1.5 md:gap-2.5 xl:gap-3.5 rounded-[10px] md:rounded-[13px] border-[0.55px] border-[#ADADAD] [&:has(input:checked)]:bg-[#EDF2FB]">

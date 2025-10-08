@@ -342,7 +342,7 @@
                 <img src="/images/advantages/load.png" alt="" class="sm:absolute sm:left-1/2 sm:-translate-x-1/2 sm:-top-2.5 md:top-3.5 w-full px-9">
                 <p class="text-[16px] leading-[22px] md:text-[21px] md:leading-[100%] font-semibold relative z-[1] px-6">Уменьшение нагрузки на локальные серверы</p>
                 <p class="text-[12px] leading-[20px] md:text-[15px] md:leading-[26px] relative z-[1] px-6">
-                    Эффективное управление данными проекта на сервере позволяет снизить нагрузку на локальные компьютеры и серверы команды.
+                    Централизованное хранение моделей на Revit сервере снижает нагрузку на локальные файловые серверы и сетевые хранилища. Это ускоряет синхронизацию данных, устраняет дублирование файлов и облегчает управление проектными данными.
                 </p>
             </div>
         </div>
