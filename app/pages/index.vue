@@ -347,6 +347,9 @@
             </div>
         </div>
     </div>
+
+    <!-- модальные окна -->
+    <TrialModal></TrialModal>
 </template>
 
 <script setup>
