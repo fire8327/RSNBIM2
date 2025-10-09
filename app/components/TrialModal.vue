@@ -16,27 +16,27 @@
                 <div class="flex flex-col gap-2 md:gap-4 xl:gap-5">
                     <div class="flex items-start gap-2 md:gap-3.5">
                         <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold">1</p>
-                        <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold"></p>
+                        <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Зарегистрируйтесь на сайте</p>
                     </div>
                     <div class="flex items-start gap-2 md:gap-3.5">
                         <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold">2</p>
                         <div>
-                            <p class="text-[12px] md:text-[15px] leading-[150%]"></p>
-                            <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold"></p>
+                            <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Создайте сервер</p>
+                            <p class="text-[12px] md:text-[15px] leading-[150%]">с нужными характеристиками и в выбранной локации</p>
                         </div>
                     </div>
                     <div class="flex items-start gap-2 md:gap-3.5">
                         <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold">3</p>
                         <div>
-                            <p class="text-[12px] md:text-[15px] leading-[150%]"></p>
-                            <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold"></p>
+                            <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Счет оплачивать не нужно</p>
+                            <p class="text-[12px] md:text-[15px] leading-[150%]">просто напишите в техподдержку в <a href="https://t.me/rsnbim_support" target="_blank" class="text-[#136BFB]">Telegram @rsnbim_support</a>, что вам нужен тестовый период</p>
                         </div>
                     </div>
                     <div class="flex items-start gap-2 md:gap-3.5">
                         <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold">4</p>
                         <div>
-                            <p class="text-[12px] md:text-[15px] leading-[150%]"></p>
-                            <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold"></p>
+                            <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Если сервис вас устроит</p>
+                            <p class="text-[12px] md:text-[15px] leading-[150%]">оплачиваете счет и продолжаете работать без перерывов</p>
                         </div>
                     </div>
                 </div>
