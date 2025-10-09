@@ -12,6 +12,15 @@
                     </div>
                 </div>
             </div>
+            <div class="flex flex-col gap-4 md:gap-7 xl:gap-11">
+                <div class="flex items-start md:items-center gap-1 md:gap-4 bg-[#D8E4F9] py-1 px-1 md:py-3.5 md:px-4 xl:px-5 xl:py-4 rounded-[10px] md:rounded-[18px]">
+                    <img src="/images/trial/clock.svg" alt="" class="w-8 md:w-[50px]">
+                    <div class="flex flex-col gap-1 md:gap-0">
+                        <p class="text-[14px] md:text-[21px] leading-[120%] font-semibold">Сервер будет готов в течение 30 минут,</p>
+                        <p class="text-[12px] md:text-[15px] leading-[150%]">а данные для входа придут на вашу почту.</p>
+                    </div>
+                </div>
+            </div>
             <a href="/reg" class="mx-auto w-full sm:w-[168px] h-8 md:h-10 rounded-full bg-[#136BFB] text-white flex items-center justify-center text-[13px] md:text-[15px] font-semibold">Регистрация</a>
         </div>
         <img src="/images/trial/close.svg" alt="" class="w-3 md:w-4 absolute top-3 right-2.5 md:top-14 md:right-14 xl:right-12">
