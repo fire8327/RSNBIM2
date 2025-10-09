@@ -13,6 +13,33 @@
                 </div>
             </div>
             <div class="flex flex-col gap-4 md:gap-7 xl:gap-11">
+                <div class="flex flex-col gap-2 md:gap-4 xl:gap-5">
+                    <div class="flex items-start gap-2 md:gap-3.5">
+                        <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold">1</p>
+                        <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold"></p>
+                    </div>
+                    <div class="flex items-start gap-2 md:gap-3.5">
+                        <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold">2</p>
+                        <div>
+                            <p class="text-[12px] md:text-[15px] leading-[150%]"></p>
+                            <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold"></p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-2 md:gap-3.5">
+                        <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold">3</p>
+                        <div>
+                            <p class="text-[12px] md:text-[15px] leading-[150%]"></p>
+                            <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold"></p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-2 md:gap-3.5">
+                        <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold">4</p>
+                        <div>
+                            <p class="text-[12px] md:text-[15px] leading-[150%]"></p>
+                            <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold"></p>
+                        </div>
+                    </div>
+                </div>
                 <div class="flex items-start md:items-center gap-1 md:gap-4 bg-[#D8E4F9] py-1 px-1 md:py-3.5 md:px-4 xl:px-5 xl:py-4 rounded-[10px] md:rounded-[18px]">
                     <img src="/images/trial/clock.svg" alt="" class="w-8 md:w-[50px]">
                     <div class="flex flex-col gap-1 md:gap-0">
