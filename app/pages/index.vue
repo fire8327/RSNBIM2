@@ -17,8 +17,8 @@
                 </button>
                 <div class="max-md:w-full relative">
                     <input type="text" placeholder="Ваш e-mail" class="focus:outline-none w-[calc(100%-90px)] md:w-[242px] pl-5 md:pl-6 pr-12 h-9 md:h-11 flex items-center justify-center rounded-full bg-[#F7F7F7] placeholder:text-[#ADADAD] ext-[12px] md:text-[15px] leading-[100%] font-medium">    
-                    <button class="absolute z-[1] top-1/2 -translate-y-1/2 right-0 md:-right-[114px] w-[129px] md:w-[155px] h-9 md:h-11 flex items-center justify-center rounded-full bg-[#136BFB] text-white text-[12px] md:text-[15px] leading-[100%] font-semibold">
-                        Начать работу
+                    <button @click="showCompanyModal = true" class="absolute z-[1] top-1/2 -translate-y-1/2 right-0 md:-right-[114px] w-[129px] md:w-[155px] h-9 md:h-11 flex items-center justify-center rounded-full bg-[#136BFB] text-white text-[12px] md:text-[15px] leading-[100%] font-semibold">
+                        yourcompany.ru
                     </button>
                 </div>
             </div>
@@ -350,12 +350,14 @@
 
     <!-- модальные окна -->
     <TrialModal v-if="showTrialModal" @close="showTrialModal = false"></TrialModal>
+    <CompanyModal v-if="showCompanyModal" @close="showCompanyModal = false"></CompanyModal>
 </template>
 
 <script setup>
 /* схема работы*/
 const scheme = ref('Server')
 
-/* модальное окно */
+/* модальные окна */
 const showTrialModal = ref(false)
+const showCompanyModal = ref(false)
 </script>
