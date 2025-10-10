@@ -15,9 +15,9 @@
                 <button @click="showTrialModal = true" class="w-full md:w-[242px] h-9 md:h-11 flex items-center justify-center rounded-full bg-[#136BFB] text-white text-[12px] md:text-[15px] leading-[100%] font-semibold">
                     7 дней бесплатно
                 </button>
-                <div class="max-md:w-full relative">
-                    <input type="text" placeholder="Ваш домен" class="focus:outline-none w-[calc(100%-90px)] md:w-[242px] pl-5 md:pl-6 pr-12 h-9 md:h-11 flex items-center justify-center rounded-full bg-[#F7F7F7] placeholder:text-[#ADADAD] ext-[12px] md:text-[15px] leading-[100%] font-medium">    
-                    <button @click="showCompanyModal = true" class="uppercase absolute z-[1] top-1/2 -translate-y-1/2 right-0 md:-right-[114px] w-[129px] md:w-[155px] h-9 md:h-11 flex items-center justify-center rounded-full bg-[#136BFB] text-white text-[12px] md:text-[14px] leading-[100%] font-semibold">
+                <div class="flex items-center max-md:w-full">
+                    <p class="grow px-2.5 md:px-5 h-9 md:h-11 flex items-center justify-center rounded-full rounded-r-none bg-[#F7F7F7] text-[12px] md:text-[15px] leading-[100%] font-medium shrink-0">Корпоративный домен</p>    
+                    <button @click="showCompanyModal = true" class="rounded-l-none uppercase w-[129px] md:w-[155px] h-9 md:h-11 flex items-center justify-center rounded-full bg-[#136BFB] text-white text-[11px] md:text-[14px] leading-[100%] font-semibold">
                         yourcompany.ru
                     </button>
                 </div>
