@@ -7,7 +7,7 @@
                     <div class="flex flex-col gap-3 md:gap-4 xl:gap-3 w-full">
                         <p class="max-sm:max-w-[179px] md:max-w-[590px] w-full xl:max-w-full text-[18px] md:text-[32px] xl:text-[36px] leading-[130%] font-medium">Используйте свой корпоративный домен!</p>
                         <div class="md:max-w-[454px] xl:max-w-[564px] max-sm:mt-6 rounded-[12px] md:rounded-[30px] flex items-center gap-1 md:gap-3 xl:gap-5 w-fit md:w-full bg-gradient-to-b from-[#136BFB] to-[#6E99E1] text-white py-1 md:py-1.5 xl:py-2.5 px-2 md:px-5 xl:px-6">
-                            <img src="/images/modals/icon.png" alt="" class="w-6 md:w-[60px] xl:w-[70px]">
+                            <img src="/images/modals/icon.png" alt="" class="w-8 md:w-[60px] xl:w-[70px]">
                             <div class="flex flex-col gap-0.5 md:gap-2">
                                 <p class="text-[16px] md:text-[18px] leading-[115%] font-semibold">Revit Server под вашим брендом</p>
                                 <p class="text-[13px] md:text-[14px] leading-[130%]">чтобы работа в Revit Server стала частью корпоративной экосистемы.</p> 
