@@ -12,7 +12,7 @@
                 Аренда облачных серверов Revit Server и Accelerator  для управления проектами по проектированию
             </p> 
             <div class="flex max-md:flex-col items-center gap-3 md:gap-3.5 mt-1 md:mt-[52px] xl:mt-8">
-                <button class="w-full md:w-[242px] h-9 md:h-11 flex items-center justify-center rounded-full bg-[#136BFB] text-white text-[12px] md:text-[15px] leading-[100%] font-semibold">
+                <button @click="showTrialModal = true" class="w-full md:w-[242px] h-9 md:h-11 flex items-center justify-center rounded-full bg-[#136BFB] text-white text-[12px] md:text-[15px] leading-[100%] font-semibold">
                     7 дней бесплатно
                 </button>
                 <div class="max-md:w-full relative">
@@ -349,10 +349,13 @@
     </div>
 
     <!-- модальные окна -->
-    <TrialModal></TrialModal>
+    <TrialModal v-if="showTrialModal" @close="showTrialModal = false"></TrialModal>
 </template>
 
 <script setup>
 /* схема работы*/
 const scheme = ref('Server')
+
+/* модальное окно */
+const showTrialModal = ref(false)
 </script>

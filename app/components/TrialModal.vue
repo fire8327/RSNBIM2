@@ -1,6 +1,6 @@
 <template>
-    <div class="fixed inset-0 bg-[#0F0F0F80] z-[9]"></div>
-    <div class="fixed top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[calc(100%-40px)] md:max-w-[825px] xl:max-w-[1118px] z-[10] rounded-[15px] md:rounded-[41px] bg-white shadow-[0px_0.78px_19.48px_3.21px_#0000002B] px-[18px] md:px-[75px] xl:px-[114px] py-6 md:py-10 xl:py-14">
+    <div @click="$emit('close')" class="fixed inset-0 bg-[#0F0F0F80] z-[9]"></div>
+    <div @click.stop class="fixed top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[calc(100%-40px)] md:max-w-[825px] xl:max-w-[1118px] z-[10] rounded-[15px] md:rounded-[41px] bg-white shadow-[0px_0.78px_19.48px_3.21px_#0000002B] px-[18px] md:px-[75px] xl:px-[114px] py-6 md:py-10 xl:py-14">
         <div class="flex flex-col gap-5 md:gap-14 xl:gap-10">
             <div class="flex items-center max-xl:flex-col gap-5 md:gap-14 xl:gap-12">
                 <div class="flex flex-col gap-5 md:gap-14 xl:gap-10">
@@ -53,14 +53,15 @@
                 </div>
                 <img src="/images/trial/hero_modal.png" alt="" class="w-[88px] md:w-[204px] xl:w-[273px] absolute top-5 right-2.5 md:top-[34px] md:right-16 xl:right-[110px] xl:top-1/2 xl:-translate-y-1/2">
             </div>
-            <a href="/reg" class="mx-auto w-full sm:w-[168px] h-8 md:h-10 rounded-full bg-[#136BFB] text-white flex items-center justify-center text-[13px] md:text-[15px] font-semibold">Регистрация</a>
+            <a @click="$emit('close')" href="/reg" class="mx-auto w-full sm:w-[168px] h-8 md:h-10 rounded-full bg-[#136BFB] text-white flex items-center justify-center text-[13px] md:text-[15px] font-semibold">Регистрация</a>
         </div>
-        <button class="absolute top-3 right-2.5 md:top-14 md:right-14 xl:right-12">
+        <button @click="$emit('close')" class="absolute top-3 right-2.5 md:top-14 md:right-14 xl:right-12">
             <img src="/images/trial/close.svg" alt="" class="w-3 md:w-4">
         </button>
     </div>
 </template>
 
 <script setup>
-
+// Определяем события компонента
+defineEmits(['close'])
 </script>
