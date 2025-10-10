@@ -47,7 +47,6 @@
                 <img src="/images/modals/company.png" alt="" class="w-[70px] md:w-[160px] xl:w-[200px] absolute top-3 right-2 md:top-6 md:right-12 xl:right-[80px] xl:top-1/2 xl:-translate-y-1/2">
             </div>
             <button @click="$emit('close')" class="mx-auto w-full sm:w-[140px] h-7 md:h-8 rounded-full bg-[#136BFB] text-white flex items-center justify-center text-[11px] md:text-[13px] font-semibold gap-1.5">
-                <img src="/images/modals/icon.png" alt="" class="w-3 h-3">
                 Инструкция
             </button>
         </div>
