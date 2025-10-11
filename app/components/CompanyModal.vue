@@ -5,7 +5,7 @@
             <div class="flex items-center max-xl:flex-col gap-5 md:gap-14 xl:gap-12">
                 <div class="flex flex-col gap-5 md:gap-14 xl:gap-10 w-full">
                     <div class="flex flex-col gap-4 md:gap-7 xl:gap-5 w-full">
-                        <p class="max-sm:max-w-[179px] md:max-w-[590px] w-full xl:max-w-full text-[20px] md:text-[40px] leading-[130%] font-medium">Используйте свой корпоративный домен!</p>
+                        <p class="max-sm:max-w-[179px] md:max-w-[590px] w-full xl:max-w-full text-[20px] md:text-[40px] leading-[130%] font-medium">Используйте корпоративный домен!</p>
                         <div class="md:max-w-[454px] xl:max-w-[564px] max-sm:mt-10 rounded-[12px] md:rounded-[30px] flex items-center gap-1 md:gap-3 xl:gap-5 w-fit md:w-full bg-gradient-to-b from-[#136BFB] to-[#6E99E1] text-white py-1 md:py-1.5 xl:py-2.5 px-2 md:px-5 xl:px-6">
                             <img src="/images/modals/icon.png" alt="" class="w-7 md:w-[71px] xl:w-[87px]">
                             <div class="flex flex-col gap-0.5 md:gap-2">
@@ -31,7 +31,7 @@
                                     <div class="mt-2 flex flex-col gap-1">
                                         <p class="text-[12px] md:text-[15px] leading-[150%] font-mono bg-[#F7F7F7] px-2 py-1 rounded w-fit">revitserver1.yourcompany.ru</p>
                                         <p class="text-[12px] md:text-[15px] leading-[150%] font-mono bg-[#F7F7F7] px-2 py-1 rounded w-fit">revitserver2.yourcompany.ru</p>
-                                        <p class="text-[12px] md:text-[15px] leading-[150%] font-mono bg-[#F7F7F7] px-2 py-1 rounded w-fit">revitserver4.yourcompany.ru</p>
+                                        <p class="text-[12px] md:text-[15px] leading-[150%] font-mono bg-[#F7F7F7] px-2 py-1 rounded w-fit">revitserver3.yourcompany.ru</p>
                                     </div>
                                 </div>
                             </div>
