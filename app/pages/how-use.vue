@@ -84,10 +84,12 @@
                     <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">2</p>
                     <div>
                         <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Срок</p>
-                        <p class="text-[12px] md:text-[15px] leading-[150%]">Выберите срок продления.</p>
+                        <p class="text-[12px] md:text-[15px] leading-[150%]">Выберите срок продления, при необходимости резервное копирование, затем нажмите кнопку “Продлить”</p>
                     </div>
                 </div>
-                <img src="/images/how_use/period.png" alt="" class="w-full md:max-w-[392px] my-4 mx-auto">
+                <div class="p-5 w-full md:max-w-[693px] my-4 mx-auto rounded-3xl shadow-[0px_1px_23px_4px_#0000000F] bg-white">
+                    <img src="/images/how_use/period.png" alt="" class="w-full rounded-2xl">
+                </div>
                 <div class="flex items-start gap-2 md:gap-3.5">
                     <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">3</p>
                     <div>
@@ -95,11 +97,16 @@
                         <p class="text-[12px] md:text-[15px] leading-[150%]">Во вкладке «Счета» автоматически сформируется счет на продление.</p>
                     </div>
                 </div>
+                <img src="/images/how_use/accounts.png" alt="" class="w-full md:max-w-[392px] my-4 mx-auto">
                 <div class="flex items-start gap-2 md:gap-3.5">
                     <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">4</p>
                     <div>
                         <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Оплатите счет</p>
+                        <p class="text-[12px] md:text-[15px] leading-[150%]">Для оплаты выберите “Оплатить” или “Скачать”, если требуется счет для юридического лица</p>
                     </div>
+                </div>
+                <div class="p-5 w-full md:max-w-[693px] my-4 mx-auto rounded-3xl shadow-[0px_1px_23px_4px_#0000000F] bg-white">
+                    <img src="/images/how_use/payment.png" alt="" class="w-full rounded-2xl">
                 </div>
             </div>
         </MainDropdown>
