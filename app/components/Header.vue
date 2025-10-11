@@ -16,7 +16,7 @@
                     <a href="/plugins" :class="getLinkClass('/plugins')" class="main-link w-fit px-4 py-1.5 rounded-full font-medium">Плагины</a>
                     <a href="/how-use" :class="getLinkClass('/how-use')" class="main-link w-fit px-4 py-1.5 rounded-full font-medium">Как пользоваться</a>
                     <a href="/" :class="getLinkClass('/')" class="main-link w-fit px-4 py-1.5 rounded-full font-medium">Тарифы</a>
-                    <a href="/" :class="getLinkClass('/help')" class="main-link w-fit px-4 py-1.5 rounded-full font-medium">Помощь</a>
+                    <a href="/help" :class="getLinkClass('/help')" class="main-link w-fit px-4 py-1.5 rounded-full font-medium">Помощь</a>
                     <a href="/contacts" :class="getLinkClass('/contacts')" class="main-link w-fit px-4 py-1.5 rounded-full font-medium">Контакты</a>
                 </div>
                 <div class="flex flex-col gap-3 sm:gap-4 !leading-[100%] font-semibold text-[13px] sm:text-[17px] xl:text-[15px] mt-[60px] sm:pt-[54px] xl:hidden">
