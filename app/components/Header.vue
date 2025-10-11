@@ -13,11 +13,11 @@
                 </div>
                 <a href="/trial" class="w-fit px-4 py-1.5 rounded-full bg-[#136BFB] text-white font-semibold mt-[52px] sm:mt-[90px] xl:mt-0">Попробовать</a>
                 <div class="flex max-xl:flex-col xl:items-center w-fit gap-4 sm:gap-5 xl:gap-2 mt-7 sm:mt-10 xl:mt-0">
-                    <a href="/plugins" class="w-fit px-4 py-1.5 rounded-full bg-[#F7F7F7] text-[#ADADAD] font-medium main-link">Плагины</a>
-                    <a href="/" class="w-fit px-4 py-1.5 rounded-full bg-[#F7F7F7] text-[#ADADAD] font-medium main-link">Как пользоваться</a>
-                    <a href="/" class="w-fit px-4 py-1.5 rounded-full bg-[#F7F7F7] text-[#ADADAD] font-medium main-link">Тарифы</a>
-                    <a href="/" class="w-fit px-4 py-1.5 rounded-full bg-[#F7F7F7] text-[#ADADAD] font-medium main-link">Помощь</a>
-                    <a href="/contacts" class="w-fit px-4 py-1.5 rounded-full bg-[#F7F7F7] text-[#ADADAD] font-medium main-link">Контакты</a>
+                    <a href="/plugins" :class="getLinkClass('/plugins')" class="main-link w-fit px-4 py-1.5 rounded-full font-medium">Плагины</a>
+                    <a href="/how-use" :class="getLinkClass('/how-use')" class="main-link w-fit px-4 py-1.5 rounded-full font-medium">Как пользоваться</a>
+                    <a href="/" :class="getLinkClass('/')" class="main-link w-fit px-4 py-1.5 rounded-full font-medium">Тарифы</a>
+                    <a href="/" :class="getLinkClass('/help')" class="main-link w-fit px-4 py-1.5 rounded-full font-medium">Помощь</a>
+                    <a href="/contacts" :class="getLinkClass('/contacts')" class="main-link w-fit px-4 py-1.5 rounded-full font-medium">Контакты</a>
                 </div>
                 <div class="flex flex-col gap-3 sm:gap-4 !leading-[100%] font-semibold text-[13px] sm:text-[17px] xl:text-[15px] mt-[60px] sm:pt-[54px] xl:hidden">
                     <a href="/reg" class="w-fit px-4 h-9 rounded-full flex items-center bg-[#D8E4F9] text-[#136BFB]">Регистрация</a>
@@ -45,6 +45,30 @@
 /* открытие меню */
 const isMenuShow = ref(false)
 
+/* получение текущего пути */
+const route = useRoute()
+
+/* функция для определения активной ссылки */
+const getLinkClass = (path) => {
+    const currentPath = route.path
+    
+    // Специальная логика для главной страницы
+    if (path === '/' && currentPath === '/') {
+        return 'text-[#0F0F0F] bg-[#F7F7F7]'
+    }
+    
+    // Для остальных страниц - точное совпадение
+    if (currentPath === path) {
+        return 'text-[#0F0F0F] bg-[#F7F7F7]'
+    }
+    
+    // Для вложенных страниц (например, /plugins/index)
+    if (currentPath.startsWith(path) && path !== '/') {
+        return 'text-[#0F0F0F] bg-[#F7F7F7]'
+    }
+    
+    return 'bg-[#F7F7F7] text-[#ADADAD]'
+}
 
 /* закрытие мобильного меню */
 const nuxtApp = useNuxtApp()
