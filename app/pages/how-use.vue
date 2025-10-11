@@ -108,8 +108,37 @@
             icon-src="/images/scheme/accelerator.svg"
             icon-class="w-9 md:w-14"
         >
-            <div class="flex flex-col gap-4 md:gap-7 xl:gap-10">
-                
+            <div class="flex flex-col gap-6">
+                <div class="flex flex-col gap-0.5">
+                    <p class="text-[16px] md:text-[21px] leading-[130%] font-semibold">Схема работы</p>
+                </div>
+                <img src="/images/scheme/accelerator-scheme.png" alt="" class="w-full my-4 mx-auto">
+                <div class="flex flex-col gap-0.5">
+                    <p class="text-[16px] md:text-[21px] leading-[130%] font-semibold">Скорость синхронизации проекта</p>
+                    <p class="text-[12px] md:text-[15px] leading-[160%]">зависит от времени, которое затрачивается на получение ответа от сервера. Как правило, приемлемый пинг должен быть не выше 40-50 мс. При пинге более 100 мс возникает заметная задержка и время синхронизации проекта с Revit Server может увеличиваться в разы, а при пинге более 170 мс некоторые проекты могут синхронизироваться более часа.</p>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-5">
+                    <div class="rounded-[13px] md:rounded-[20px] bg-[#F7F7F7] py-4 md:py-6 px-5 md:px-7">
+                        <p class="text-[16px] md:text-[23px] leading-[130%] font-semibold">< 40-50 мc</p>
+                        <p class="text-[12px] md:text-[15px] leading-[160%]">Приемлемый пинг</p>
+                    </div>
+                    <div class="rounded-[13px] md:rounded-[20px] bg-[#F7F7F7] py-4 md:py-6 px-5 md:px-7">
+                        <p class="text-[16px] md:text-[23px] leading-[130%] font-semibold">> 100 мc</p>
+                        <p class="text-[12px] md:text-[15px] leading-[160%]">Пинг, при котором возникает задержка и время синхронизации с Revit Server может увеличиваться в разы</p>
+                    </div>
+                    <div class="rounded-[13px] md:rounded-[20px] bg-[#F7F7F7] py-4 md:py-6 px-5 md:px-7">
+                        <p class="text-[16px] md:text-[23px] leading-[130%] font-semibold">> 170 мc</p>
+                        <p class="text-[12px] md:text-[15px] leading-[160%]">Пинг, при котором некоторые проекты могут синхронизироваться более часа. </p>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-0.5">
+                    <p class="text-[16px] md:text-[21px] leading-[130%] font-semibold">Revit Accelerator это ускоритель для Revit</p>
+                    <p class="text-[12px] md:text-[15px] leading-[160%]">Который ускоряет процесс загрузки и обновления данных проекта для пользователей, находящихся в удаленных местах от Revit Server`а. Если у вас команда проектировщиков географически удалена от местоположения Revit Server, то рекомендуем дополнительно к Revit Server арендовать Revit Accelerator, который находится географически как можно ближе к специалистам проектной группы.</p>
+                </div>
+                <div class="flex flex-col gap-0.5">
+                    <p class="text-[16px] md:text-[21px] leading-[130%] font-semibold">Подключение</p>
+                </div>
+                <img src="/images/how_use/work.png" alt="" class="w-full md:max-w-[693px] my-4 mx-auto">
             </div>
         </MainDropdown>
         <MainDropdown 
@@ -117,8 +146,16 @@
             icon-src="/images/how_use/lock.svg"
             icon-class="w-6 md:w-11"
         >
-            <div class="flex flex-col gap-4 md:gap-7 xl:gap-10">
-                
+            <div class="flex flex-col gap-6">
+                <div class="flex flex-col gap-0.5">
+                    <p class="text-[16px] md:text-[21px] leading-[130%] font-semibold">Уникальная ссылка</p>
+                    <p class="text-[12px] md:text-[15px] leading-[160%]">чтобы разослать ее участникам проекта для совместной работы.</p>
+                </div>
+                <div class="flex flex-col gap-0.5">
+                    <p class="text-[16px] md:text-[21px] leading-[130%] font-semibold">Ограничение по ip-адресам </p>
+                    <p class="text-[12px] md:text-[15px] leading-[160%]">для доступа к вашему Revit Server. По умолчанию Revit Server доступен со всех ip-адресов глобальной сети, при добавлении хотя бы одного ip-адреса в разрешенные, доступ блокируется для всех остальных.</p>
+                </div>
+                <img src="/images/how_use/safety.png" alt="" class="w-full md:max-w-[693px] my-4 mx-auto">
             </div>
         </MainDropdown>
         <MainDropdown 
@@ -126,8 +163,20 @@
             icon-src="/images/how_use/vpn.svg"
             icon-class="w-10 md:w-16"
         >
-            <div class="flex flex-col gap-4 md:gap-7 xl:gap-10">
-                
+            <div class="flex flex-col gap-6">
+                <div class="flex flex-col gap-0.5">
+                    <p class="text-[16px] md:text-[21px] leading-[130%] font-semibold">Можете предоставить доступ через VPN</p>
+                    <p class="text-[12px] md:text-[15px] leading-[160%]">Одновременно можно использовать доступ по VPN и доступ по ip-адресам или же выбрать только один из них.</p>
+                </div>
+                <img src="/images/how_use/vpn.png" alt="" class="w-full md:max-w-[693px] my-4 mx-auto">
+                <div class="flex flex-col gap-0.5">
+                    <p class="text-[16px] md:text-[21px] leading-[130%] font-semibold">Подключение</p>
+                    <p class="text-[12px] md:text-[15px] leading-[160%]">При добавлении доступа по VPN на указанный email приходит подробная инструкция по подключению к вашему Revit серверу.</p>
+                </div>
+                <div class="flex flex-col gap-0.5">
+                    <p class="text-[16px] md:text-[21px] leading-[130%] font-semibold">Отключение</p>
+                    <p class="text-[12px] md:text-[15px] leading-[160%]">При удалении происходит блокировка доступа к Revit серверу в течении 10-15 секунд.</p>
+                </div>
             </div>
         </MainDropdown>
         <MainDropdown 
@@ -135,8 +184,20 @@
             icon-src="/images/how_use/copy.svg"
             icon-class="w-6 md:w-10"
         >
-            <div class="flex flex-col gap-4 md:gap-7 xl:gap-10">
-                
+            <div class="flex flex-col gap-6">
+                <div class="flex flex-col gap-0.5">
+                    <p class="text-[16px] md:text-[21px] leading-[130%] font-semibold">3-7 дней - теневое резервное копирование всех проектов</p>
+                    <p class="text-[12px] md:text-[15px] leading-[160%]">Ведется на нашем Revit Server по умолчанию глубиной от 3 до 7 дней (в зависимости от используемого места на диске) два раза в сутки в 00-00 и в 12-00. </p>
+                </div>
+                <div class="flex flex-col gap-0.5">
+                    <p class="text-[16px] md:text-[21px] leading-[130%] font-semibold">Вернуть проект</p>
+                    <p class="text-[12px] md:text-[15px] leading-[160%]">Вы можете запросить вернуть проект на определенную дату и время по запросу в техподдержку <br> <a href="https://t.me/rsnbim_support" class="text-[#136BFB]" target="_blank">https://t.me/rsnbim_support</a></p>
+                </div>
+                <div class="flex flex-col gap-0.5">
+                    <p class="text-[16px] md:text-[21px] leading-[130%] font-semibold">14-30 дней - дополнительное резервное копирование всех проектов</p>
+                    <p class="text-[12px] md:text-[15px] leading-[160%]">Вы можете приобрести дополнительно  бэкап вашего Revit сервера на 14 или 30 дней.</p>
+                </div>
+                <img src="/images/how_use/copy.png" alt="" class="w-full md:max-w-[693px] my-4 mx-auto">
             </div>
         </MainDropdown>
     </div>
