@@ -19,7 +19,7 @@
                     <a href="/help" :class="getLinkClass('/help')" class="main-link w-fit px-4 py-1.5 rounded-full font-medium">Помощь</a>
                     <a href="/contacts" :class="getLinkClass('/contacts')" class="main-link w-fit px-4 py-1.5 rounded-full font-medium">Контакты</a>
                 </div>
-                <div class="flex flex-col gap-3 sm:gap-4 !leading-[100%] font-semibold text-[13px] sm:text-[17px] xl:text-[15px] mt-[60px] sm:pt-[54px] xl:hidden">
+                <div v-if="!isUserLoggedIn" class="flex flex-col gap-3 sm:gap-4 !leading-[100%] font-semibold text-[13px] sm:text-[17px] xl:text-[15px] mt-[60px] sm:pt-[54px] xl:hidden">
                     <a href="/reg" class="w-fit px-4 h-9 rounded-full flex items-center bg-[#D8E4F9] text-[#136BFB]">Регистрация</a>
                     <a href="/auth" class="w-fit px-4 h-9 rounded-full flex items-center gap-2 border border-[#136BFB] text-[#136BFB]">
                         <span>Войти</span>
