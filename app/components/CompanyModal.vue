@@ -1,7 +1,7 @@
 <template>
     <div @click="$emit('close')" class="fixed inset-0 bg-[#0F0F0F80] z-[9]"></div>
     <div @click.stop class="fixed top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 w-[calc(100%-40px)] md:max-w-[825px] xl:max-w-[1118px] z-[10] rounded-[15px] md:rounded-[41px] bg-white shadow-[0px_0.78px_19.48px_3.21px_#0000002B] px-2.5 py-6 md:py-10 xl:py-14">
-        <div class="max-h-[60vh] sm:max-h-[70vh] md:max-h-[80vh] overflow-y-auto px-2 md:px-[65px] xl:px-[105px]">
+        <div class="relative max-h-[60vh] sm:max-h-[70vh] md:max-h-[80vh] overflow-y-auto px-2 md:px-[65px] xl:px-[105px]">
             <div class="flex flex-col gap-5 md:gap-14 xl:gap-10">
                 <div class="flex items-center max-xl:flex-col gap-5 md:gap-14 xl:gap-12">
                     <div class="flex flex-col gap-5 md:gap-14 xl:gap-10 w-full">
@@ -46,7 +46,7 @@
                             </div>
                         </div>
                     </div>
-                    <img src="/images/modals/company.png" alt="" class="w-[88px] md:w-[204px] xl:w-[273px] absolute top-5 right-2.5 md:top-[34px] md:right-16 xl:right-[110px] xl:top-1/2 xl:-translate-y-1/2">
+                    <img src="/images/modals/company.png" alt="" class="w-[88px] md:w-[204px] xl:w-[273px] absolute top-0 right-0 md:top-0 md:right-[50px] xl:right-[100px] xl:top-1/2 xl:-translate-y-1/2">
                 </div>
                 <button @click="$emit('close')" class="mx-auto w-full sm:w-[168px] h-8 md:h-10 rounded-full bg-[#136BFB] text-white flex items-center justify-center text-[13px] md:text-[15px] font-semibold">
                     Подробнее
