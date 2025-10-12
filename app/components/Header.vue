@@ -26,13 +26,29 @@
                         <img src="/images/header/link-icon.svg" alt="">
                     </a>
                 </div>
-            </div>
+            </div>           
             <div class="flex items-center gap-2.5 !leading-[100%] font-semibold text-[13px] sm:text-[17px] xl:text-[15px]">
-                <a href="/auth" class="w-fit px-4 h-9 rounded-full flex items-center gap-2 border border-[#136BFB] text-[#136BFB] max-sm:hidden">
+                <div v-if="isUserLoggedIn" class="flex items-center md:gap-3 max-md:rounded-full max-md:bg-[#F7F7F7] relative">
+                    <div class="w-10 h-10 flex items-center justify-center bg-[#EFEFEF] rounded-full">
+                        <img src="/images/header/avatar.png" alt="">
+                    </div>
+                    <button @click="isDropdownShow = !isDropdownShow"
+                        class="cursor-pointer flex items-center gap-3 md:bg-[#F7F7F7] rounded-full max-md:h-full md:py-2.5 pl-1 md:pl-5 pr-4">
+                        <span class="text-sm leading-[100%] font-medium max-md:hidden">Евгений Фадеев</span>
+                        <img src="/images/header/arrow.png" alt="">
+                    </button>
+                    <!-- dropdown -->
+                    <div v-show="isDropdownShow"
+                        class="bg-white py-3 px-8 rounded-[20px] shadow-[0px_1px_22px_-1px_#00000014] text-sm leading-[29px] flex flex-col absolute right-0 top-[115%]">
+                        <a href="#">Профиль</a>
+                        <a href="#" @click="isUserLoggedIn = false">Выйти</a>
+                    </div>
+                </div>
+                <a v-if="!isUserLoggedIn" @click="isUserLoggedIn = true" class="cursor-pointer w-fit px-4 h-9 rounded-full flex items-center gap-2 border border-[#136BFB] text-[#136BFB] max-sm:hidden">
                     <span>Войти</span>
                     <img src="/images/header/link-icon.svg" alt="">
                 </a>
-                <a href="/reg" class="w-fit px-4 h-9 rounded-full flex items-center bg-[#D8E4F9] text-[#136BFB] max-sm:hidden">Регистрация</a>
+                <a v-if="!isUserLoggedIn" href="/reg" class="w-fit px-4 h-9 rounded-full flex items-center bg-[#D8E4F9] text-[#136BFB] max-sm:hidden">Регистрация</a>
                 <button @click="isMenuShow = true" class="w-8 md:w-12 xl:hidden">
                     <img src="/images/header/menu.svg" alt="">
                 </button>
@@ -44,6 +60,10 @@
 <script setup>
 /* открытие меню */
 const isMenuShow = ref(false)
+
+/* открытие dropdown и смена */
+const isDropdownShow = ref(false)
+const isUserLoggedIn = ref(false)
 
 /* получение текущего пути */
 const route = useRoute()
