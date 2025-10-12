@@ -60,7 +60,73 @@
             icon-class="w-7 md:w-10"
         >
             <div class="flex flex-col gap-5 md:gap-6 xl:gap-10">
-                
+                <div class="flex items-start gap-2 md:gap-3.5">
+                    <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">1</p>
+                    <div>
+                        <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Меню информации о сервере</p>
+                        <p class="text-[12px] md:text-[15px] leading-[150%]">Перейдите в меню информации о Revit Server нажав на имя сервера.</p>
+                    </div>
+                </div>
+                <img src="/images/help/menu.png" alt="" class="w-full md:max-w-[414px] mx-auto">
+                <div class="flex items-start gap-2 md:gap-3.5">
+                    <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">2</p>
+                    <div>
+                        <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Логин и пароль</p>
+                        <div class="flex flex-col gap-5">
+                            <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>В "Информации о сервере" нажмите глазок и вам откроется логин, пароль для входа в административную панель и ссылка.</p>
+                            </div>
+                            <img src="/images/help/login2.png" alt="" class="w-full md:max-w-[828px] mx-auto">
+                            <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>Кликните на ссылку и вам откроется новая страница с логином и паролем.</p>
+                            </div>
+                            <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>Введите логин пароль</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-start gap-2 md:gap-3.5">
+                    <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">3</p>
+                    <div>
+                        <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Административная панель</p>
+                        <div class="flex flex-col gap-5">
+                            <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>Вы попадете в Административную панель Revit Server. Она предоставляет различные функции для управления и мониторинга Revit Server.</p>
+                            </div>
+                            <img src="/images/help/panel.png" alt="" class="w-full md:max-w-[693px] mx-auto">
+                            <p class="text-[12px] md:text-[15px] leading-[150%] font-semibold">Функции</p>
+                            <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>Просмотр списка всех проектов, хранящихся на сервере.</p>
+                            </div>
+                            <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>Создание новых проектов и папок.</p>
+                            </div>
+                            <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>Удаление существующих проектов и папок.</p>
+                            </div>
+                            <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>Управление доступом к проектам и папкам.</p>
+                            </div>
+                            <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>Просмотр текущего состояния сервера и его ресурсов.</p>
+                            </div>
+                            <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>Просмотр журналов событий и логов операций для отслеживания активности на сервере.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </MainDropdown>
         <MainDropdown
@@ -69,7 +135,49 @@
             icon-class="w-8 md:w-16"
         >
             <div class="flex flex-col gap-5 md:gap-6 xl:gap-10">
-                
+                <div class="flex items-start gap-2 md:gap-3.5">
+                    <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">1</p>
+                    <div>
+                        <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">VPN клиент WireGuard</p>
+                        <p class="text-[12px] md:text-[15px] leading-[150%]">Скачайте и установите по ссыlке <a class="text-[#136BFB]" target="_blank">VPN клиент WireGuard.</a></p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-2 md:gap-3.5">
+                    <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">2</p>
+                    <div>
+                        <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Конфигурация туннеля</p>
+                        <div class="flex flex-col gap-5">
+                            <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>Во вложении присланного письма находится конфигурация туннеля для доступа к VPN серверу.</p>
+                            </div>
+                            <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>Откройте приложение WireGuard и нажмите «Добавить туннель» и выберите архив из письма.</p>
+                            </div>
+                        </div>
+                        <img src="/images/help/tunnel.png" alt="" class="w-full md:max-w-[393px] my-4 mx-auto">
+                        <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                            <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                            <p>Добавиться туннель для подключения к Revit серверу.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-start gap-2 md:gap-3.5">
+                    <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">3</p>
+                    <div>
+                        <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Подключить</p>
+                        <p class="text-[12px] md:text-[15px] leading-[150%]">Нажмите кнопку «Подключить».</p>
+                    </div>
+                </div>
+                <img src="/images/help/plug.png" alt="" class="w-full md:max-w-[693px] mx-auto">
+                <div class="flex items-start gap-2 md:gap-3.5">
+                    <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">4</p>
+                    <div>
+                        <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Сервер в файл RSN.ini</p>
+                        <p class="text-[12px] md:text-[15px] leading-[150%]">Если у вас был ранее добавлен сервер в файл RSN.ini, то можете приступать к работе в Revit. Если нет, то прочтите «Как подключиться к Revit Server».</p>
+                    </div>
+                </div>
             </div>
         </MainDropdown>
         <MainDropdown
@@ -78,7 +186,89 @@
             icon-class="w-6 md:w-11"
         >
             <div class="flex flex-col gap-5 md:gap-6 xl:gap-10">
-                
+                <div class="flex items-start gap-2 md:gap-3.5">
+                    <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">1</p>
+                    <div>
+                        <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Вкладка «Совместная работа»</p>
+                        <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                            <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                            <p>Выбираем вкладку «Совместная работа»</p>
+                        </div>
+                        <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                            <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                            <p>Кликаем на «Совместная работа» в панели</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="/images/help/joint_work.png" alt="" class="w-full md:max-w-[828px] mx-auto">
+                <div class="flex items-start gap-2 md:gap-3.5">
+                    <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">2</p>
+                    <div>
+                        <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">«В вашей сети»</p>
+                        <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                            <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                            <p>Выбираем «В вашей сети»</p>
+                        </div>
+                        <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                            <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                            <p>Соглашаемся</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="/images/help/network.png" alt="" class="w-full md:max-w-[440px] mx-auto">
+                <div class="flex items-start gap-2 md:gap-3.5">
+                    <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">3</p>
+                    <div>
+                        <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">«Рабочие наборы»</p>
+                        <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                            <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                            <p>Проверяем, что стала активна кнопка «Рабочие наборы»</p>
+                        </div>
+                        <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                            <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                            <p>Ок</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="/images/help/working_sets.png" alt="" class="w-full md:max-w-[828px] mx-auto">
+                <div class="flex items-start gap-2 md:gap-3.5">
+                    <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">4</p>
+                    <div>
+                        <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Сохранить проект</p>
+                        <p class="text-[12px] md:text-[15px] leading-[150%]">Файл – Сохранить как и сохраняем проект на Revit Server</p>
+                    </div>
+                </div>
+                <img src="/images/help/save_project.png" alt="" class="w-full md:max-w-[828px] mx-auto">
+                <div class="flex items-start gap-2 md:gap-3.5">
+                    <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">5</p>
+                    <div>
+                        <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">«Считать моделью из хранилища»</p>
+                        <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                            <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                            <p>Заходим в Параметры и проверяем, что появилась галочка напротив пункта «Считать моделью из хранилища»</p>
+                        </div>
+                        <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                            <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                            <p>Ок</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="/images/help/model.png" alt="" class="w-full md:max-w-[693px] mx-auto">
+                <div class="flex items-start gap-2 md:gap-3.5">
+                    <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">6</p>
+                    <div>
+                        <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Сохранить</p>
+                        <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                            <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                            <p>После нажатия Сохранить, станет активной кнопка синхронизации.</p>
+                        </div>
+                        <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
+                            <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                            <p>Сохранить</p>
+                        </div>
+                    </div>
+                </div>
+                <img src="/images/help/save2.png" alt="" class="w-full md:max-w-[485px] mx-auto">
             </div>
         </MainDropdown>
         <MainDropdown
