@@ -304,7 +304,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col gap-6">
-                    <img src="/images/help/connect.png" alt="" class="w-full md:max-w-[598px] mx-auto">
+                    <img src="/images/help/binding.png" alt="" class="w-full md:max-w-[598px] mx-auto">
                     <div class="flex items-start gap-2 text-[12px] md:text-[15px] leading-[150%]">
                         <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
                         <p>Используя общее файл-хранилище ссылки на dwg, pdf, ifc и прочие файлы теперь доступны всем участникам проекта. Скорость загрузки и синхронизации проекта должна стать быстрее.</p>
