@@ -4,6 +4,7 @@
         <slot/>
     </main>
     <Footer :hide-contact-block="hideFooterContact"></Footer>
+    <CookieBanner />
 </template>
 
 <script setup>
