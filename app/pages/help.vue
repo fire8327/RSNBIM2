@@ -71,7 +71,7 @@
             </div>
         </MainDropdown>
         <MainDropdown
-            title="Как зайти в административную панель Revit Server"
+            title="Как зайти в админ-панель Revit Server"
             icon-src="/images/help/admin.svg"
             icon-class="w-7 md:w-10"
         >
