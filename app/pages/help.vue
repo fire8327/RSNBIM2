@@ -14,14 +14,30 @@
                     <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">1</p>
                     <div>
                         <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Найти Файл rsn.ini и замените его</p>
-                        <p class="text-[12px] md:text-[15px] leading-[150%]">Выберите срок продления, при необходимости резервное копирование, затем нажмите кнопку “Продлить”</p>
+                        <p class="text-[12px] md:text-[15px] leading-[150%]">Файл rsn.ini обычно находится в каталоге установки Autodesk Revit. Путь к файлу обычно выглядит так:</p>
+                        <p class="px-1.5 md:px-7 bg-[#F7F7F7] w-fit text-[12px] md:text-[15px] leading-[150%] rounded-[7px] my-1.5">C:\ProgramData\Autodesk\Revit Server [Версия]\Config\rsn.ini</p>
+                        <p class="text-[12px] md:text-[15px] leading-[150%]">Замените [Версия] на версию Revit, которую Вы используете (пример C:\ProgramData\Autodesk\Revit Server 2023\Config).</p>
                     </div>
                 </div>
                 <div class="flex items-start gap-2 md:gap-3.5">
                     <p class="w-5 md:w-6 h-5 md:h-6 flex items-center justify-center rounded-full bg-[#136BFB] text-white mt-0.5 text-[12px] md:text-[15px] leading-[100%] font-semibold shrink-0">2</p>
                     <div>
                         <p class="text-[14px] md:text-[21px] leading-[100%] font-semibold">Добавить адрес сервера</p>
-                        <p class="text-[12px] md:text-[15px] leading-[150%]">Выберите срок продления, при необходимости резервное копирование, затем нажмите кнопку “Продлить”</p>
+                        <div class="flex flex-col gap-5 mt-5 text-[12px] md:text-[15px] leading-[150%]">
+                            <div class="flex items-start gap-2">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>Откройте файл rsn.ini с помощью текстового редактора, такого как Блокнот или Notepad++.</p>
+                            </div>
+                            <div class="flex items-start gap-2">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>Добавьте строку в файл rsn.ini, без пробелов и новых строк, указывая уникальное имя домена. Формат строки следующий:</p>
+                            </div>
+                            <p class="px-1.5 md:px-7 bg-[#F7F7F7] w-fit text-[12px] md:text-[15px] leading-[150%] rounded-[7px] -my-3.5"><уникальный код домена>.rsnbim.ru (пример u9pft4zw4.rsnbim.ru)</p>
+                            <div class="flex items-start gap-2">
+                                <div class="w-0.5 h-0.5 rounded-full bg-[#0F0F0F] shrink-0 mt-2 md:mt-3"></div>
+                                <p>Либо Вы можете скачать готовый файл RSN.ini и разместить его как указано в шаге номер 1.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="flex items-start gap-2 md:gap-3.5">
