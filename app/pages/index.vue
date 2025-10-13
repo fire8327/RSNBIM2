@@ -106,11 +106,11 @@
         <div class="flex flex-col w-full">
             <div class="grid-container">
                 <div class="flex items-center gap-2.5 md:gap-11 max-md:jsutify-center text-[11px] md:text-[21px] leading-[100%] font-semibold">
-                    <button @click="scheme = 'Server'" class="flex items-center gap-1 md:gap-2.5 px-2.5 md:px-10 rounded-t-[12px] md:rounded-t-[21px]" :class="{'bg-[#F7F7F7]' : scheme === 'Server'}">
+                    <button @click="scheme = 'Server'" class="h-fit flex items-center gap-1 md:gap-2.5 px-2.5 md:px-10 rounded-t-[12px] md:rounded-t-[21px]" :class="{'bg-[#F7F7F7]' : scheme === 'Server'}">
                         <img src="/images/scheme/server.svg" alt="" class="w-[30px] md:w-[65px]">
                         <span>Revit Server</span>
                     </button>
-                    <button @click="scheme = 'Accelerator'" class="flex items-center gap-1 md:gap-2.5 px-2.5 md:px-10 rounded-t-[12px] md:rounded-t-[21px]" :class="{'bg-[#F7F7F7]' : scheme === 'Accelerator'}">
+                    <button @click="scheme = 'Accelerator'" class="h-fit flex items-center gap-1 md:gap-2.5 px-2.5 md:px-10 rounded-t-[12px] md:rounded-t-[21px]" :class="{'bg-[#F7F7F7]' : scheme === 'Accelerator'}">
                         <img src="/images/scheme/accelerator.svg" alt="" class="w-[30px] md:w-[65px]">
                         <span>Revit Accelerator</span>
                     </button>
