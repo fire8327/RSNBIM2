@@ -1,7 +1,7 @@
 <template>
     <div class="flex max-sm:flex-col gap-5 sm:justify-between items-center">
         <p class="text-[25px] md:text-[38px] xl:text-[40px] leading-[130%] font-medium">Помощь</p>
-        <img src="/images/help/hero.png" alt="" class="w-full md:max-w-[450px] xl:max-w-[610px]">
+        <img src="/images/help/hero.png" alt="" class="w-full sm:max-w-[300px] md:max-w-[450px] xl:max-w-[610px]">
     </div>
     <div class="flex flex-col gap-2.5 md:gap-5">
         <MainDropdown
