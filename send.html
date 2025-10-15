@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Отправить тестовое письмо</title>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+  <h2>Отправить HTML-письмо через EmailJS</h2>
+  <p>Письмо будет отправлено на ваш email.</p>
+  
+  <label>
+    Ваш email: 
+    <input type="email" id="toEmail" value="fire83274@gmail.com" size="30">
+  </label>
+  <br><br>
+  <button onclick="sendEmail()">Отправить письмо</button>
+
+  <script>
+    // 🔑 Замените на ваш Public Key из EmailJS
+    const PUBLIC_KEY = "wazSVGXhydyn8X4Hg";
+    
+    // 📨 Замените на ваш Service ID (например, service_gmail)
+    const SERVICE_ID = "service_hrcsbzc";
+    
+    // 📄 Замените на ваш Template ID (например, template_xyz123)
+    const TEMPLATE_ID = "template_qd7v28y";
+
+    emailjs.init(PUBLIC_KEY);
+
+    function sendEmail() {
+      const toEmail = document.getElementById("toEmail").value;
+      if (!toEmail) {
+        alert("Введите email!");
+        return;
+      }
+
+      const templateParams = {
+        to_email: toEmail
+        // Дополнительные переменные можно добавить здесь, если используете {{name}} и т.д.
+      };
+
+      emailjs.send(SERVICE_ID, TEMPLATE_ID, templateParams)
+        .then(() => {
+          alert("✅ Письмо отправлено! Проверьте почту.");
+        })
+        .catch((error) => {
+          console.error("Ошибка:", error);
+          alert("❌ Не удалось отправить письмо. Откройте консоль (F12) для деталей.");
+        });
+    }
+  </script>
+</body>
+</html>
